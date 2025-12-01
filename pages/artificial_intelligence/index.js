@@ -1,15 +1,14 @@
 import React, { Fragment } from "react";
 import Head from "next/head";
 import Header from "@/components/header/Header";
-// Removed PageTitle import
+// import PageTitle from "@/components/pagetitle/PageTitle"; // Removed PageTitle
 import Scrollbar from "@/components/scrollbar/scrollbar";
 import Footer from "@/components/footer/Footer";
 import CtaSection from "@/components/CtaSection/CtaSection";
-
 import Image from "next/image";
 import Link from "next/link";
 
-// ... (Services and Service objects remain the same)
+// --- AI Service Data ---
 const Services = [
   {
     title: "NLP & Conversational AI",
