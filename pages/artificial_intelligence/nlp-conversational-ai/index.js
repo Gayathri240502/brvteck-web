@@ -310,7 +310,7 @@ const NLPAndConversationalAI = () => {
                       figuratively.
                     </p>
                   </div>
-                  <Link href="/service" className="btn" onClick={ClickHandler}>
+                  <Link href="/contact" className="btn" onClick={ClickHandler}>
                     <span className="btn_label" data-text="Talk to an Expert">
                       Talk to an Expert
                     </span>

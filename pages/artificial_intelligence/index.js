@@ -253,10 +253,13 @@ const SoftwareEnterprisePage = () => {
                       model monitoring, MLOps and governance.
                     </p>
                   </div>
-                  <Link href="/contact" legacyBehavior>
-                    <a className="btn hero_cta small" onClick={ClickHandler}>
-                      <span className="btn_label">Talk to an Expert</span>
-                    </a>
+                  <Link href="/contact" className="btn" onClick={ClickHandler}>
+                    <span className="btn_label" data-text="Talk to an Expert">
+                      Talk to an Expert
+                    </span>
+                    <span className="btn_icon">
+                      <i className="fa-solid fa-arrow-up-right"></i>
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -270,7 +273,6 @@ const SoftwareEnterprisePage = () => {
       <Footer />
       <Scrollbar />
 
-      {/* single styled-jsx block (global) to avoid nested-styled-jsx build errors */}
       <style jsx global>{`
         /* Hero video */
         .ai_video_hero {
