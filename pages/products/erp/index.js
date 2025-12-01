@@ -28,23 +28,23 @@ const wImg = "/img/products/erp2.jpg"; // key
 
 const PolicyIcons = [
   {
-    title: "Centralized Data",
+    title: "AI-Powered Centralized Data",
     icon: FileText,
   },
   {
-    title: "Operational Efficiency",
+    title: "Intelligent Operational Efficiency",
     icon: Gauge,
   },
   {
-    title: "Real-Time Analytics",
+    title: "Predictive Analytics & Forecasting",
     icon: BarChart3,
   },
   {
-    title: "Workflow Automation",
+    title: "Adaptive Workflow Automation",
     icon: Workflow,
   },
   {
-    title: "Secure Access",
+    title: "AI-Driven Secure Access",
     icon: ShieldCheck,
   },
 ];
@@ -60,9 +60,9 @@ const Policy = [
         }}
       />
     ),
-    title: "ERP Implementation",
+    title: "AI-First ERP Implementation",
     subTitle:
-      "Seamless implementation of ERP systems to streamline your business processes and enhance organizational efficiency.",
+      "Deploy ERP systems with built-in AI models that automate processes, reduce manual work, and accelerate time-to-value.",
   },
   {
     icon: (
@@ -74,9 +74,9 @@ const Policy = [
         }}
       />
     ),
-    title: "ERP Customization",
+    title: "Domain-Specific AI Customization",
     subTitle:
-      "Tailor ERP solutions to meet your specific business needs, ensuring maximum ROI and a perfect fit for your operations.",
+      "Customize machine learning models and intelligent agents to match your industry workflows and KPIs for measurable ROI.",
   },
   {
     icon: (
@@ -88,9 +88,9 @@ const Policy = [
         }}
       />
     ),
-    title: "ERP Integration",
+    title: "Seamless AI Integration",
     subTitle:
-      "Integrate ERP systems with existing business tools to centralize data, automate workflows, and enhance decision-making.",
+      "Integrate AI services with existing systems (CRM, SCM, HRMS, finance) to centralize intelligence and enable cross-system insights.",
   },
   {
     icon: (
@@ -102,9 +102,9 @@ const Policy = [
         }}
       />
     ),
-    title: "ERP Support & Maintenance",
+    title: "AI Support, Monitoring & MLOps",
     subTitle:
-      "Benefit from ongoing ERP support and maintenance services to ensure smooth operations, software updates, and issue resolution.",
+      "End-to-end model monitoring, continuous retraining pipelines, and operational support to keep your AI models accurate and compliant.",
   },
   {
     icon: (
@@ -116,9 +116,9 @@ const Policy = [
         }}
       />
     ),
-    title: "ERP Training",
+    title: "Human-in-the-Loop Training",
     subTitle:
-      "Equip your team with the skills they need to fully leverage your ERP system, ensuring a smooth transition and maximizing productivity.",
+      "Train teams to work with AI — from interpreting model outputs to providing feedback that improves model performance over time.",
   },
   {
     icon: (
@@ -130,57 +130,60 @@ const Policy = [
         }}
       />
     ),
-    title: "ERP Analytics & Reporting",
+    title: "AI Analytics & Explainability",
     subTitle:
-      "Utilize ERP analytics tools to gain insights into business performance, identify trends, and make data-driven decisions.",
+      "Actionable dashboards with explainable AI insights, anomaly detection, and automated alerts to support data-driven decisions.",
   },
 ];
 
-const ErpPage = () => {
+const AiErpPage = () => {
   const ClickHandler = () => window.scrollTo(0, 0);
 
   return (
     <Fragment>
       <Head>
-        <title>ERP Solutions | Enterprise Resource Planning | Brvteck</title>
+        <title>
+          AI-Enterprise Resource Planning | Intelligent ERP | Brvteck
+        </title>
         <meta
           name="description"
-          content="Brvteck ERP solutions streamline business operations, centralize data, automate workflows, and provide real-time analytics for growth and efficiency."
+          content="Brvteck AI-ERP combines enterprise resource planning with machine learning: predictive analytics, adaptive automation, and intelligent decision support."
         />
         <meta
           name="keywords"
-          content="ERP, Enterprise Resource Planning, ERP Solutions, Brvteck, ERP Implementation, ERP Integration, ERP Customization, ERP Analytics"
+          content="AI ERP, Intelligent ERP, Predictive Analytics ERP, Brvteck AI, ERP with Machine Learning, Adaptive Workflow, MLOps ERP"
         />
         <meta name="author" content="Brvteck" />
         <meta
           property="og:title"
-          content="ERP Solutions | Enterprise Resource Planning | Brvteck"
+          content="AI-Enterprise Resource Planning | Brvteck"
         />
         <meta
           property="og:description"
-          content="Optimize your business with Brvteck's ERP solutions: implementation, integration, analytics, and more."
+          content="Optimize operations with Brvteck's AI-driven ERP: automation, forecasting, and intelligent workflows for modern enterprises."
         />
         <meta property="og:image" content="/img/products/erp1.jpg" />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.brvteck.com/products/erp"
+          content="https://www.brvteck.com/products/ai-erp"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="ERP Solutions | Enterprise Resource Planning | Brvteck"
+          content="AI-Enterprise Resource Planning | Brvteck"
         />
         <meta
           name="twitter:description"
-          content="Streamline your business with Brvteck ERP solutions for automation, analytics, and growth."
+          content="Brvteck AI-ERP delivers predictive analytics, intelligent automation, and secure AI operations for enterprise-scale transformation."
         />
         <meta name="twitter:image" content="/img/products/erp1.jpg" />
-        <link rel="canonical" href="https://www.brvteck.com/products/erp" />
+        <link rel="canonical" href="https://www.brvteck.com/products/ai-erp" />
       </Head>
+
       <PageTitle
-        pageTitle="Enterprise Resource Planning Solutions"
-        pagesub="products 😍"
+        pageTitle="AI-Enterprise Resource Planning Solutions"
+        pagesub="products"
         pageTop="Our"
       />
       <Header />
@@ -190,23 +193,31 @@ const ErpPage = () => {
           <div className="row align-items-center justify-content-lg-between">
             <div className="col-lg-5 order-lg-last">
               <div className="team_cartoon_image">
-                <Image src={srImg} alt="ERP Cartoon" width={500} height={500} />
+                <Image
+                  src={srImg}
+                  alt="AI ERP Illustration"
+                  width={500}
+                  height={500}
+                />
               </div>
             </div>
             <div className="col-lg-6">
               <div className="about_content">
                 <div className="heading_block">
                   <div className="heading_focus_text">
-                    We Are ERP
+                    We Are AI
                     <span className="badge bg-secondary text-white">
-                      IT Experts 🙂
+                      IT Experts
                     </span>
                   </div>
-                  <h2 className="heading_text">Enterprise Resource Planning</h2>
+                  <h2 className="heading_text">
+                    AI-Enterprise Resource Planning
+                  </h2>
                   <p className="heading_description mb-0">
-                    Streamline your business operations with our robust ERP
-                    solutions, designed to integrate, automate, and optimize
-                    every aspect of your enterprise.
+                    Transform your enterprise with AI-native ERP: intelligent
+                    forecasts, automated decision flows, and context-aware
+                    assistants that help teams move faster and focus on
+                    strategic work.
                   </p>
                 </div>
                 <Link onClick={ClickHandler} href="/service" className="btn">
@@ -260,13 +271,14 @@ const ErpPage = () => {
           </div>
         </div>
       </section>
+
       {/* Key Features Section */}
       <section className="service_section section_space bg-light">
         <div className="container">
           <div className="row align-items-center justify-content-lg-between">
             <div className="col-lg-6">
               <div className="image_wrap">
-                <Image src={wImg} alt="ERP" width={600} height={400} />
+                <Image src={wImg} alt="AI ERP" width={600} height={400} />
               </div>
             </div>
             <div className="col-lg-6">
@@ -277,7 +289,7 @@ const ErpPage = () => {
                     features
                   </div>
                   <h2 className="heading_text mb-0">
-                    Key Benefits of Our ERP Solutions
+                    Key Benefits of Our AI-ERP
                   </h2>
                 </div>
                 <ul className="service_facilities_group unordered_list">
@@ -315,4 +327,4 @@ const ErpPage = () => {
   );
 };
 
-export default ErpPage;
+export default AiErpPage;
