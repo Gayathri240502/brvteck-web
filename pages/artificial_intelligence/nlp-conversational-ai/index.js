@@ -5,44 +5,44 @@ import PageTitle from "@/components/pagetitle/PageTitle";
 import Scrollbar from "@/components/scrollbar/scrollbar";
 import Footer from "@/components/footer/Footer";
 import CtaSection from "@/components/CtaSection/CtaSection";
-
+ 
 import Image from "next/image";
 import Link from "next/link";
-
+ 
 // Updated Sub-services based on your request
 const Services = [
   {
     title: "Chatbots & Virtual Assistants",
     path: "/service/technology/nlp/chatbots", // Update path as needed
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai2.jpg", // Update image path
+    sImg: "/img/services/ai-ml/chat.png", // Update image path
   },
   {
     title: "Sentiment & Emotion Analysis",
     path: "/service/technology/nlp/sentiment-analysis", // Update path as needed
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai3.jpg", // Update image path
+    sImg: "/img/services/ai-ml/ai3.png", // Update image path
   },
   {
     title: "Text Summarization & Translation",
     path: "/service/technology/nlp/text-summarization", // Update path as needed
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai4.jpg", // Update image path
+    sImg: "/img/services/ai-ml/ai4.png", // Update image path
   },
 ];
-
+ 
 const Service = {
   title: "NLP & Conversational AI",
   description: `At BRV TECHNOLOGIES, our Natural Language Processing (NLP) and Conversational AI services enable businesses to interact with customers and users in human-like language. We build chatbots & virtual assistants that understand context, intents, and sentiment — delivering smooth 24/7 customer support, lead generation, and FAQ automation. We also offer sentiment & emotion analysis to gauge user mood and feedback, plus text summarization and translation to simplify long documents or break language barriers.`,
   // You may want to update these images to be specific to NLP
-  images: ["/img/services/ai-ml/ai1.jpg"], 
+  images: ["/img/services/ai-ml/nlp2.png"],
 };
-
+ 
 const NLPAndConversationalAI = () => {
   const ClickHandler = () => {
     window.scrollTo(10, 0);
   };
-
+ 
   return (
     <Fragment>
       <Head>
@@ -56,7 +56,7 @@ const NLPAndConversationalAI = () => {
           content="NLP, Conversational AI, Chatbots, Virtual Assistants, Sentiment Analysis, Text Summarization, Document Translation, BRVTeck, AI services"
         />
         <meta name="author" content="BRVTeck Technologies Private Limited" />
-
+ 
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
@@ -68,7 +68,7 @@ const NLPAndConversationalAI = () => {
           content="Build chatbots & virtual assistants that understand context, intents, and sentiment. Unlock the power of NLP with BRVTeck."
         />
         <meta property="og:image" content="/img/logo.png" />
-
+ 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
@@ -80,7 +80,7 @@ const NLPAndConversationalAI = () => {
           content="Empower your business with BRVTeck's NLP & Conversational AI services, including Chatbots, Sentiment Analysis, and Translation."
         />
         <meta property="twitter:image" content="/img/logo.png" />
-
+ 
         <meta name="format-detection" content="telephone=no" />
         <meta name="contact" content="+91-8062177256" />
         <meta name="email" content="sales@brvteck.com" />
@@ -90,7 +90,7 @@ const NLPAndConversationalAI = () => {
       <Header />
       <main className="page_content service-single-page">
         <PageTitle pageTitle={Service.title} pagesub="AI" pageTop="NLP &" />
-
+ 
         {/* Service Description Section */}
         <section className="service_details_section section_space bg-light">
           <div className="container">
@@ -103,7 +103,7 @@ const NLPAndConversationalAI = () => {
                 style={{ width: "1600px", height: "500px" }}
               />
             </div>
-
+ 
             <h2 className="details_item_title">{Service.title}</h2>
             <p>{Service.description}</p>
             <p>
@@ -111,7 +111,7 @@ const NLPAndConversationalAI = () => {
               technologies to deliver tailored, best-in-class communication
               solutions.
             </p>
-
+ 
             <div className="row">
               {Service.images.slice(1).map((img, idx) => (
                 <div
@@ -131,7 +131,7 @@ const NLPAndConversationalAI = () => {
             </div>
           </div>
         </section>
-
+ 
         <section className="service_section section_space xb-hidden pb-0">
           <div className="container">
             <div className="heading_block text-center">
@@ -143,7 +143,7 @@ const NLPAndConversationalAI = () => {
               </div>
               <h2 className="heading_text mb-0">Featured Services</h2>
             </div>
-
+ 
             <div className="row mt-5 g-4">
               {Services.map((service, index) => (
                 <div className="col-lg-4 col-md-7 col-12" key={index}>
@@ -194,22 +194,22 @@ const NLPAndConversationalAI = () => {
               transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
               border: 1px solid rgba(255, 255, 255, 0.1);
             }
-
+ 
             .service_card:hover {
               transform: translateY(-8px);
               box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
             }
-
+ 
             .service_card:hover .service_image {
               transform: scale(1.05);
             }
-
+ 
             .service_image_wrapper {
               height: 350px; /* Increased from 280px to 350px */
               overflow: hidden;
               cursor: pointer;
             }
-
+ 
             .overlay_gradient {
               background: linear-gradient(
                 180deg,
@@ -218,7 +218,7 @@ const NLPAndConversationalAI = () => {
                 rgba(0, 0, 0, 0.7) 100%
               );
             }
-
+ 
             .service_card:hover .overlay_gradient {
               background: linear-gradient(
                 180deg,
@@ -227,61 +227,61 @@ const NLPAndConversationalAI = () => {
                 rgba(0, 0, 0, 0.8) 100%
               );
             }
-
+ 
             .btn-light {
               backdrop-filter: blur(10px);
               border: 1px solid rgba(255, 255, 255, 0.2);
             }
-
+ 
             .btn-light:hover {
               background-color: rgba(255, 255, 255, 0.9) !important;
               transform: translateY(-1px);
             }
-
+ 
             .icon_link {
               transition: all 0.3s ease;
               box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
               pointer-events: none; /* Prevents double-click since parent is already clickable */
             }
-
+ 
             .service_card:hover .icon_link {
               background-color: rgba(255, 255, 255, 0.9) !important;
               transform: scale(1.1);
               box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
             }
-
+ 
             .service_title {
               text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
               line-height: 1.2;
             }
-
+ 
             .transition-all {
               transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             }
-
+ 
             @media (max-width: 768px) {
               .service_card {
                 margin-bottom: 1.5rem;
               }
-
+ 
               .service_image_wrapper {
                 height: 300px; /* Increased from 240px to 300px for mobile */
               }
-
+ 
               .service_title {
                 font-size: 1.1rem !important;
               }
             }
           `}</style>
         </section>
-
+ 
         <section className="about_section section_space bg-light mt-4">
           <div className="container">
             <div className="row align-items-center justify-content-lg-between">
               <div className="col-lg-5 order-lg-last">
                 <div className="team_cartoon_image">
                   <Image
-                    src="/img/services/cybersecurity/s1.jpg"
+                    src="/img/services/ai-ml/ai5.png"
                     alt="Service Cartoon"
                     width={500}
                     height={500}
@@ -324,12 +324,13 @@ const NLPAndConversationalAI = () => {
           </div>
         </section>
       </main>
-
+ 
       <CtaSection />
       <Footer />
       <Scrollbar />
     </Fragment>
   );
 };
-
+ 
 export default NLPAndConversationalAI;
+ 

@@ -14,26 +14,26 @@ const Services = [
     title: "Object Detection & Image Classification",
     // path: "/service/technology/computer-vision/object-detection",
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai2.jpg", // Ensure image paths exist or update them
+    sImg: "/img/services/ai-ml/vision5.png", // Ensure image paths exist or update them
   },
   {
     title: "Facial Recognition & Emotion Detection",
     // path: "/service/technology/computer-vision/facial-recognition",
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai3.jpg",
+    sImg: "/img/services/ai-ml/vision2.png",
   },
   {
     title: "Video Analysis & Visual Content Moderation",
     // path: "/service/technology/computer-vision/video-analysis",
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai4.jpg",
+    sImg: "/img/services/ai-ml/vision3.png",
   },
 ];
  
 const Service = {
   title: "Computer Vision & Image / Video AI",
   description: `Our Computer Vision solutions transform visual data — images, video streams, or camera feeds — into actionable insights. From image classification and object detection to facial recognition, emotion detection, and video analytics, we offer AI-powered visual intelligence. These are ideal for applications such as security surveillance, quality control, retail inventory management, or any system that needs automated image/video understanding.`,
-  images: ["/img/services/ai-ml/ai1.jpg"],
+  images: ["/img/services/ai-ml/vision.png"],
 };
  
 const ComputerVision = () => {
@@ -287,7 +287,7 @@ const ComputerVision = () => {
               <div className="col-lg-5 order-lg-last">
                 <div className="team_cartoon_image">
                   <Image
-                    src="/img/services/cybersecurity/s1.jpg"
+                    src="/img/services/ai-ml/vision6.png"
                     alt="Service Cartoon"
                     width={500}
                     height={500}

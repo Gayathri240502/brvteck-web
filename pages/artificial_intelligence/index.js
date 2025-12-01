@@ -32,7 +32,7 @@ const Services = [
     sImg: "/img/services/ai/ai_analytics.jpg",
   },
 ];
-
+ 
 const Service = {
   title: "Artificial Intelligence",
   description:
@@ -41,12 +41,12 @@ const Service = {
   secondDescription:
     "We combine domain knowledge, modern ML infrastructures and responsible AI practices to deliver production-ready solutions that scale and respect privacy and fairness.",
 };
-
+ 
 const SoftwareEnterprisePage = () => {
   const ClickHandler = () => {
     if (typeof window !== "undefined") window.scrollTo(10, 0);
   };
-
+ 
   return (
     <Fragment>
       <Head>
@@ -171,7 +171,7 @@ const SoftwareEnterprisePage = () => {
               </div>
               <h2 className="heading_text mb-0">Featured Services</h2>
             </div>
-
+ 
             <div className="row mt-5 g-4">
               {Services.map((service, index) => (
                 <div className="col-lg-6 col-md-7 col-12" key={index}>
@@ -226,7 +226,7 @@ const SoftwareEnterprisePage = () => {
               <div className="col-lg-5 order-lg-last">
                 <div className="team_cartoon_image">
                   <Image
-                    src="/img/services/ai/ai_whychooseus.jpg"
+                    src="/img/services/artificial-intelligence/why.png"
                     alt="Artificial Intelligence Why Choose Us"
                     width={600}
                     height={400}
