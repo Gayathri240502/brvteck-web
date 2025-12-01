@@ -15,19 +15,19 @@ const Services = [
     title: "Chatbots & Virtual Assistants",
     path: "/service/technology/nlp/chatbots", // Update path as needed
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/nlp2.png", // Update image path
+    sImg: "/img/services/ai-ml/chat.png", // Update image path
   },
   {
     title: "Sentiment & Emotion Analysis",
     path: "/service/technology/nlp/sentiment-analysis", // Update path as needed
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai3.jpg", // Update image path
+    sImg: "/img/services/ai-ml/ai3.png", // Update image path
   },
   {
     title: "Text Summarization & Translation",
     path: "/service/technology/nlp/text-summarization", // Update path as needed
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai4.jpg", // Update image path
+    sImg: "/img/services/ai-ml/ai4.png", // Update image path
   },
 ];
  
@@ -35,7 +35,7 @@ const Service = {
   title: "NLP & Conversational AI",
   description: `At BRV TECHNOLOGIES, our Natural Language Processing (NLP) and Conversational AI services enable businesses to interact with customers and users in human-like language. We build chatbots & virtual assistants that understand context, intents, and sentiment — delivering smooth 24/7 customer support, lead generation, and FAQ automation. We also offer sentiment & emotion analysis to gauge user mood and feedback, plus text summarization and translation to simplify long documents or break language barriers.`,
   // You may want to update these images to be specific to NLP
-  images: ["/img/services/ai-ml/ai1.jpg"],
+  images: ["/img/services/ai-ml/nlp2.png"],
 };
  
 const NLPAndConversationalAI = () => {
@@ -283,7 +283,7 @@ const NLPAndConversationalAI = () => {
               <div className="col-lg-5 order-lg-last">
                 <div className="team_cartoon_image">
                   <Image
-                    src="/img/services/cybersecurity/s1.jpg"
+                    src="/img/services/ai-ml/ai5.png"
                     alt="Service Cartoon"
                     width={500}
                     height={500}

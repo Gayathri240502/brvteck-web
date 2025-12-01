@@ -290,7 +290,7 @@ const SpeechAndAudioAI = () => {
               <div className="col-lg-5 order-lg-last">
                 <div className="team_cartoon_image">
                   <Image
-                    src="/img/services/cybersecurity/s1.jpg"
+                    src="/img/services/ai-ml/s1.png"
                     alt="Service Cartoon"
                     width={500}
                     height={500}
