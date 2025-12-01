@@ -223,7 +223,7 @@ export const navLinks = [
         label: "AI Based Learning Management System (AI-LMS)",
       },
      { href: "/products/AI-CRM", label: "AI-Driven Customer Relationship Management(AI-CRM)" },
-      { href: "/products/AI-BIM", label: "AI-based Inventory Management System (AI-BIM)" },
+      { href: "/products/AI-BIM", label: "AI-Enterprise Resource Planning(AI-ERP)" },
     {
     
         href: "/products/AI-HRMS",
