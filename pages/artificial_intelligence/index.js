@@ -12,22 +12,22 @@ import Link from "next/link";
 const Services = [
   {
     title: "NLP & Conversational AI",
-    path: "/artificial-intelligence/nlp-conversational-ai",
+    // path: "/artificial-intelligence/nlp-conversational-ai",
     sImg: "/img/services/ai/ai_nlp.jpg", // Placeholder image path
   },
   {
     title: "Computer Vision & Image Intelligence",
-    path: "/artificial_intelligence/computer-vision-image-video-ai",
+    // path: "/artificial_intelligence/computer-vision-image-video-ai",
     sImg: "/img/services/ai/ai_vision.jpg", // Placeholder image path
   },
   {
     title: "Speech & Audio Intelligence",
-    path: "/artificial_intelligence/speech-audio-processing",
+    // path: "/artificial_intelligence/speech-audio-processing",
     sImg: "/img/services/ai/ai_audio.jpg", // Placeholder image path
   },
   {
     title: "Data & Predictive Analytics",
-    path: "/artificial_intelligence/data-predictive-analytics",
+    // path: "/artificial_intelligence/data-predictive-analytics",
     sImg: "/img/services/ai/ai_analytics.jpg", // Placeholder image path
   },
 ];
@@ -35,7 +35,6 @@ const Services = [
 const Service = {
   title: "Artificial Intelligence",
   description: `BRVTeck's Artificial Intelligence practice designs, builds and deploys intelligent systems that transform how businesses operate. From natural language interfaces and vision systems to voice-enabled applications and predictive analytics, our solutions help you automate decisions, personalize customer experiences, and gain actionable insights from data.`,
-  // The first image is now the placeholder for the video fallback/context
   images: ["/img/services/ai/ai_main.jpg"], // Placeholder image path
   secondDescription: `We combine domain knowledge, modern ML infrastructures and responsible AI practices to deliver production-ready solutions that scale and respect privacy and fairness.`,
 };
@@ -111,7 +110,6 @@ const SoftwareEnterprisePage = () => {
             }}
             aria-label="Artificial Intelligence background video"
           >
-            Your browser does not support the video tag.
           </video>
         </section>
         {/* End Full-width Video Section */}
