@@ -12,7 +12,7 @@ import Link from "next/link";
 const Services = [
   {
     title: "NLP & Conversational AI",
-    path: "/service/technology/artificial-intelligence/nlp-conversational-ai",
+    path: "/artificial-intelligence/nlp-conversational-ai",
     col: "col-lg-4 col-md-6",
     sImg: "/img/services/artificial-intelligence/nlp.jpg",
   },
