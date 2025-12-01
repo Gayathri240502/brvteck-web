@@ -10,30 +10,30 @@ import Head from "next/head";
 
 const productList = [
   {
-    title: "Hospital Information Management System",
+    title: "AI-Hosptial information Management System",
     image: "/img/products/hms.jpg", 
-    route: "/products/hims",
+    route: "/products/AI-HIMS",
   },
   {
-    title: "Customer Relationship Management",
+    title: "AI-Learning Management System",
     image: "/img/products/crm1.jpg", 
-    route: "/products/crm",
+    route: "/products/AI-LMS",
   },
 
   {
-    title: "Enterprise Resource Planning",
+    title: "AI-Driven Customer Relationship Management",
     image: "/img/products/erp.jpg", 
-    route: "/products/erp",
+    route: "/products/AI-CRM",
   },
   {
-    title: "Human Resource Management System",
+    title: "AI-Based Investory Management System",
     image: "/img/products/hrms.jpg",
-    route: "/products/hrms",
+    route: "/products/AI-BIM",
   },
   {
-    title: "Learning Management System",
+    title: "AI-Human Resource Management System",
     image: "/img/products/lms2.jpg",
-    route: "/products/lms",
+    route: "/products/AI-HRMS",
   },
 ];
 
@@ -48,7 +48,7 @@ const ProductsPage = () => {
         />
         <meta
           name="keywords"
-          content="Brvteck Products, Software Solutions, HMS, CRM, ERP, HRMS, LMS, Business Tools"
+          content="Brvteck Products, Software Solutions, AI-HIMS,AI-LMS,AI-CRM,AI-BIM,AI-HRMS, Business Tools"
         />
         <meta name="author" content="Brvteck" />
         <link rel="canonical" href="https://www.brvteck.com/products" />
@@ -56,7 +56,7 @@ const ProductsPage = () => {
         {/* Open Graph / Facebook / LinkedIn */}
         <meta
           property="og:title"
-          content="Our Software Products | Brvteck Solutions"
+          content="Our Software s | Brvteck Solutions"
         />
         <meta
           property="og:description"
@@ -147,7 +147,7 @@ const ProductsPage = () => {
                         style={{ fontSize: "1.5rem", fontWeight: 700 }}
                       >
                         <Link href={product.route}>{product.title}</Link>
-                      </h3>
+   S                   </h3>
                     </div>
                   </div>
                 </div>
