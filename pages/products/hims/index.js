@@ -18,34 +18,41 @@ import {
   Gauge,
   BarChart3,
   Workflow,
-  ShieldCheck,
+  ShieldCheck, // Retaining ShieldCheck for the AI-focused benefit
 } from "lucide-react";
 
 const srImg = "/img/products/hms.jpg"; //main
 const wImg = "/img/products/hms1.jpg"; //key
 
+// AI-Focused Policy Icons (Key Benefits)
 const PolicyIcons = [
   {
-    title: "Operational Efficiency",
+    title: "Predictive Operational Efficiency",
     icon: Gauge,
   },
   {
-    title: "Accurate Patient Data",
+    title: "Contextual Patient Data & Clinical Insights",
     icon: FileText,
   },
   {
-    title: "Real-Time Analytics",
+    title: "Prescriptive Analytics for Resource Planning",
     icon: BarChart3,
   },
   {
-    title: "Integrated Healthcare Workflows",
+    title: "Intelligent & Self-Adjusting Workflows",
     icon: Workflow,
   },
   {
-    title: "Automated Billing & Insurance",
+    title: "Automated RCM with Anomaly Detection",
     icon: CreditCard,
   },
+  {
+    title: "Enhanced Data Security via Behavioral AI",
+    icon: ShieldCheck, // New AI-focused benefit
+  },
 ];
+
+// AI-Enhanced Core Modules
 const Policy = [
   {
     icon: (
@@ -53,15 +60,13 @@ const Policy = [
         size={80}
         color="#03044e"
         style={{
-          // backgroundColor: "#eef2ff",
-          // borderRadius: "50%",
           padding: "12px",
         }}
       />
     ),
-    title: "Hospital Administration & Reporting",
+    title: "AI-Driven Administration & Predictive Reporting",
     subTitle:
-      "Optimize hospital administration with real-time reporting and analytics to support data-driven decision-making and resource management.",
+      "Optimize hospital administration using ML algorithms to forecast patient load, predict equipment maintenance needs, and provide real-time operational recommendations for maximum efficiency.",
   },
   {
     icon: (
@@ -69,15 +74,13 @@ const Policy = [
         size={80}
         color="#03044e"
         style={{
-          // backgroundColor: "#eef2ff",
-          // borderRadius: "50%",
           padding: "12px",
         }}
       />
     ),
-    title: "Patient Registration & Scheduling",
+    title: "Intelligent Scheduling & Resource Allocation",
     subTitle:
-      "Streamline patient registration and appointment scheduling with an intuitive interface, ensuring seamless coordination and reduced waiting times.",
+      "Streamline appointment scheduling by analyzing patient history and provider availability to minimize cancellations and optimize consultation slots. Includes AI-based staff shift planning.",
   },
   {
     icon: (
@@ -85,15 +88,13 @@ const Policy = [
         size={80}
         color="#03044e"
         style={{
-          // backgroundColor: "#eef2ff",
-          // borderRadius: "50%",
           padding: "12px",
         }}
       />
     ),
-    title: "Electronic Medical Records (EMR)",
+    title: "Cognitive Electronic Medical Records (EMR)",
     subTitle:
-      "Maintain comprehensive, secure, and accessible electronic medical records for patients, enabling accurate diagnosis and improved continuity of care.",
+      "Maintain secure, comprehensive EMRs. Uses NLP to extract structured data from clinical notes and provides AI-powered clinical decision support for accurate diagnosis and personalized treatment paths.",
   },
   {
     icon: (
@@ -101,15 +102,13 @@ const Policy = [
         size={80}
         color="#03044e"
         style={{
-          // backgroundColor: "#eef2ff",
-          // borderRadius: "50%",
           padding: "12px",
         }}
       />
     ),
-    title: "Billing & Insurance Management",
+    title: "Automated Revenue Cycle Management (RCM) & Fraud Detection",
     subTitle:
-      "Simplify billing processes and insurance claim management with automated workflows, reducing errors and ensuring timely reimbursements.",
+      "Simplify billing and insurance with automated coding suggestions and claim submission. Uses AI to detect patterns indicative of billing errors or fraudulent activity, ensuring timely and accurate reimbursements.",
   },
   {
     icon: (
@@ -117,15 +116,13 @@ const Policy = [
         size={80}
         color="#03044e"
         style={{
-          // backgroundColor: "#eef2ff",
-          // borderRadius: "50%",
           padding: "12px",
         }}
       />
     ),
-    title: "Pharmacy Management",
+    title: "Smart Pharmacy Inventory & Prescription Safety",
     subTitle:
-      "Manage pharmacy inventory, prescriptions, and dispensing seamlessly while ensuring compliance with regulations and minimizing errors.",
+      "Manage inventory with demand forecasting to minimize waste and stockouts. Uses AI to cross-reference patient EMRs for drug-interaction warnings and dose recommendations, drastically enhancing prescription safety.",
   },
   {
     icon: (
@@ -133,15 +130,13 @@ const Policy = [
         size={80}
         color="#03044e"
         style={{
-          // backgroundColor: "#eef2ff",
-          // borderRadius: "50%",
           padding: "12px",
         }}
       />
     ),
-    title: "Laboratory & Diagnostics Integration",
+    title: "AI-Accelerated Diagnostics & Lab Workflow",
     subTitle:
-      "Integrate diagnostic services and lab workflows for efficient report generation, tracking, and result analysis.",
+      "Integrate diagnostics and lab results. ML models aid in image analysis (e.g., radiology/pathology) for pre-screening and priority flagging, speeding up analysis and reducing human error.",
   },
 ];
 
@@ -151,45 +146,45 @@ const HimsPage = () => {
   return (
     <Fragment>
       <Head>
-        <title>Hospital Information Management System | HIMS | Brvteck</title>
+        <title>AI-Powered Hospital Information Management System | Smart HIMS | Brvteck</title>
         <meta
           name="description"
-          content="Brvteck's Hospital Information Management System (HIMS) streamlines healthcare operations, improves patient care, and automates workflows for hospitals and clinics."
+          content="Brvteck's AI-HIMS leverages machine learning and automation to optimize clinical outcomes, predict resource needs, and revolutionize patient care for modern healthcare institutions."
         />
         <meta
           name="keywords"
-          content="HIMS, Hospital Information Management System, Healthcare IT, Brvteck, Hospital Management, Patient Data, Healthcare Automation"
+          content="AI-HIMS, Predictive Healthcare, Machine Learning in Hospitals, Smart Hospital Management, Brvteck AI, Clinical Decision Support, Healthcare Automation"
         />
         <meta name="author" content="Brvteck" />
         <meta
           property="og:title"
-          content="Hospital Information Management System | HIMS | Brvteck"
+          content="AI-Powered Hospital Information Management System | Smart HIMS | Brvteck"
         />
         <meta
           property="og:description"
-          content="Transform healthcare delivery with Brvteck's HIMS: operational efficiency, patient data, analytics, and more."
+          content="Revolutionize healthcare delivery with Brvteck's AI-HIMS: predictive analytics, automated workflows, and intelligent patient management."
         />
         <meta property="og:image" content="/img/products/hms.jpg" />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.brvteck.com/products/hims"
+          content="https://www.brvteck.com/products/ai-hims"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Hospital Information Management System | HIMS | Brvteck"
+          content="AI-Powered Hospital Information Management System | Smart HIMS | Brvteck"
         />
         <meta
           name="twitter:description"
-          content="Streamline hospital operations and patient care with Brvteck's HIMS."
+          content="Streamline hospital operations and patient care with Brvteck's AI-HIMS."
         />
         <meta name="twitter:image" content="/img/products/hms.jpg" />
-        <link rel="canonical" href="https://www.brvteck.com/products/hims" />
+        <link rel="canonical" href="https://www.brvteck.com/products/ai-hims" />
       </Head>
       <PageTitle
-        pageTitle="Hospital Information Management System"
-        pagesub="products 😍"
+        pageTitle="AI-Hospital Information Management System"
+        pagesub="products 💡"
         pageTop="Our"
       />
 
@@ -202,7 +197,7 @@ const HimsPage = () => {
               <div className="team_cartoon_image">
                 <Image
                   src={srImg}
-                  alt="Service Cartoon"
+                  alt="AI Service Cartoon"
                   width={500}
                   height={500}
                 />
@@ -214,21 +209,19 @@ const HimsPage = () => {
                   <div className="heading_focus_text">
                     We Are Healthcare
                     <span className="badge bg-secondary text-white">
-                      IT Experts 🙂
+                      AI Pioneers 💡
                     </span>
                   </div>
                   <h2 className="heading_text">
-                    Hospital Information Management System
+                    Intelligent Hospital Information Management System
                   </h2>
                   <p className="heading_description mb-0">
-                    Transform healthcare delivery with our comprehensive
-                    hospital management system, designed to streamline
-                    operations, enhance patient care, and improve efficiency.
+                    Transform healthcare from **reactive to predictive** with our state-of-the-art AI-Hospital Management System. Our platform utilizes **Machine Learning (ML)** and **Natural Language Processing (NLP)** to automate complex clinical and administrative tasks, offering personalized patient pathways, intelligent resource allocation, and unparalleled operational foresight.
                   </p>
                 </div>
                 <Link onClick={ClickHandler} href="/service" className="btn">
-                  <span className="btn_label" data-text="Talk to an Expart">
-                    Talk to an Expert
+                  <span className="btn_label" data-text="Talk to an AI Expert">
+                    Talk to an AI Expert
                   </span>
                   <span className="btn_icon">
                     <i className="fa-solid fa-arrow-up-right"></i>
@@ -240,7 +233,7 @@ const HimsPage = () => {
         </div>
       </section>
 
-      {/* Feature Cards */}
+      {/* Feature Cards (AI-Enhanced) */}
       <section style={{ backgroundColor: "#eaf4ff", padding: "60px 0" }}>
         <div className="container">
           <div
@@ -277,24 +270,24 @@ const HimsPage = () => {
           </div>
         </div>
       </section>
-      {/* Key Features Section */}
+      {/* Key Features Section (AI-Benefits) */}
       <section className="service_section section_space bg-light">
         <div className="container">
           <div className="row align-items-center justify-content-lg-between">
             <div className="col-lg-6">
               <div className="image_wrap">
-                <Image src={wImg} alt="HIMS" width={600} height={400} />
+                <Image src={wImg} alt="AI-HIMS Interface" width={600} height={400} />
               </div>
             </div>
             <div className="col-lg-6">
               <div className="ps-lg-5">
                 <div className="heading_block">
                   <div className="heading_focus_text">
-                    <span className="badge bg-secondary text-white">Key</span>
-                    features
+                    <span className="badge bg-secondary text-white">AI</span>
+                    Benefits
                   </div>
                   <h2 className="heading_text mb-0">
-                    Key Benefits of Our HMS Solutions
+                    Key Benefits of Our AI-HIMS Solutions
                   </h2>
                 </div>
                 <ul className="service_facilities_group unordered_list">
@@ -323,8 +316,8 @@ const HimsPage = () => {
       </section>
 
       <main className="page_content about-page">
-        {/* <CtaSection /> */}
-         <section
+        {/* Call to Action (AI-Focused) */}
+          <section
               className="calltoaction_section parallaxie"
               style={{
                 backgroundImage: `url(${"/img/startup/startup.jpg"})`,
@@ -332,10 +325,9 @@ const HimsPage = () => {
             >
               <div className="container text-center">
                 <div className="heading_block text-white">
-                  <h2 className="heading_text">Ready to Work, Let's Chat</h2>
+                  <h2 className="heading_text">Ready to Transform Healthcare with AI?</h2>
                   <p className="heading_description mb-0">
-                    Our team of experts is ready to collaborate with you every step of
-                    the way, from initial consultation to implementation.
+                    Our team of AI and healthcare experts is ready to implement a system that learns and adapts to your facility's unique needs, guaranteeing a future-proof investment.
                   </p>
                 </div>
                 <Link
@@ -343,8 +335,8 @@ const HimsPage = () => {
                   href="https://himsapp.ai/"
                   className="btn btn-primary"
                 >
-                  <span className="btn_label" data-text="Contact Us Today! ">
-                    Contact Us Today!
+                  <span className="btn_label" data-text="Launch Your AI-HIMS Pilot! ">
+                    Launch Your AI-HIMS Pilot!
                   </span>
                   <span className="btn_icon">
                     <i className="fa-solid fa-arrow-up-right"></i>
