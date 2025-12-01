@@ -14,26 +14,26 @@ const Services = [
     title: "Speech-to-Text Transcription",
     // path: "/service/technology/speech-ai/speech-to-text",
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai2.jpg", // Ensure image paths exist or update them
+    sImg: "/img/services/ai-ml/speech.png", // Ensure image paths exist or update them
   },
   {
     title: "Text-to-Speech",
     // path: "/service/technology/speech-ai/text-to-speech",
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai3.jpg",
+    sImg: "/img/services/ai-ml/speech1.png",
   },
   {
     title: "Voice Command & Control Interfaces",
     // path: "/service/technology/speech-ai/voice-command",
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai4.jpg",
+    sImg: "/img/services/ai-ml/speech2.png",
   },
 ];
 
 const Service = {
   title: "Speech & Audio Intelligence",
   description: `Harness voice and audio data with our Speech & Audio AI services. We convert spoken content into accurate text (Speech-to-Text) — useful for transcriptions, call-center logs, meeting minutes, or voice-command systems. We also provide Text-to-Speech capabilities for natural, human-like speech output — powering voice assistants, IVR systems, e-learning platforms, and more.`,
-  images: ["/img/services/ai-ml/ai1.jpg"],
+  images: ["/img/services/ai-ml/speech3.png"],
 };
 
 const SpeechAndAudioAI = () => {
@@ -158,7 +158,6 @@ const SpeechAndAudioAI = () => {
                 <div className="col-lg-4 col-md-7 col-12" key={index}>
                   <div className="service_card h-100 position-relative overflow-hidden rounded-4 shadow-lg border-0 transition-all">
                     {/* Clickable Service Image with Overlay */}
-                    <Link href={service.path} legacyBehavior>
                       <a
                         className="service_image_wrapper position-relative d-block text-decoration-none"
                         onClick={ClickHandler}
@@ -193,7 +192,6 @@ const SpeechAndAudioAI = () => {
                           </div>
                         </div>
                       </a>
-                    </Link>
                   </div>
                 </div>
               ))}
@@ -290,7 +288,7 @@ const SpeechAndAudioAI = () => {
               <div className="col-lg-5 order-lg-last">
                 <div className="team_cartoon_image">
                   <Image
-                    src="/img/services/cybersecurity/s1.jpg"
+                    src="/img/services/ai-ml/s1.png"
                     alt="Service Cartoon"
                     width={500}
                     height={500}
@@ -320,7 +318,7 @@ const SpeechAndAudioAI = () => {
                       and efficient.
                     </p>
                   </div>
-                  <Link href="/service" className="btn" onClick={ClickHandler}>
+                  <Link href="/contact" className="btn" onClick={ClickHandler}>
                     <span className="btn_label" data-text="Talk to an Expert">
                       Talk to an Expert
                     </span>

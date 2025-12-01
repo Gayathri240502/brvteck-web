@@ -14,25 +14,25 @@ const Services = [
   {
     title: "NLP & Conversational AI",
     path: "/artificial_intelligence/nlp-conversational-ai",
-    sImg: "/img/services/ai/ai_nlp.jpg",
+    sImg: "/img/services/artificial-intelligence/nlp.jpg",
   },
   {
     title: "Computer Vision & Image Intelligence",
     path: "/artificial_intelligence/computer-vision-image-video-ai",
-    sImg: "/img/services/ai/ai_vision.jpg",
+    sImg: "/img/services/artificial-intelligence/computer-vision.jpg",
   },
   {
     title: "Speech & Audio Intelligence",
     path: "/artificial_intelligence/speech-audio-processing",
-    sImg: "/img/services/ai/ai_audio.jpg",
+    sImg: "/img/services/artificial-intelligence/speech-audio.png",
   },
   {
     title: "Data & Predictive Analytics",
     path: "/artificial_intelligence/data-predictive-analytics",
-    sImg: "/img/services/ai/ai_analytics.jpg",
+    sImg: "/img/services/artificial-intelligence/data-analytics.jpg",
   },
 ];
-
+ 
 const Service = {
   title: "Artificial Intelligence",
   description:
@@ -41,12 +41,12 @@ const Service = {
   secondDescription:
     "We combine domain knowledge, modern ML infrastructures and responsible AI practices to deliver production-ready solutions that scale and respect privacy and fairness.",
 };
-
+ 
 const SoftwareEnterprisePage = () => {
   const ClickHandler = () => {
     if (typeof window !== "undefined") window.scrollTo(10, 0);
   };
-
+ 
   return (
     <Fragment>
       <Head>
@@ -171,7 +171,7 @@ const SoftwareEnterprisePage = () => {
               </div>
               <h2 className="heading_text mb-0">Featured Services</h2>
             </div>
-
+ 
             <div className="row mt-5 g-4">
               {Services.map((service, index) => (
                 <div className="col-lg-6 col-md-7 col-12" key={index}>
@@ -226,7 +226,7 @@ const SoftwareEnterprisePage = () => {
               <div className="col-lg-5 order-lg-last">
                 <div className="team_cartoon_image">
                   <Image
-                    src="/img/services/ai/ai_whychooseus.jpg"
+                    src="/img/services/artificial-intelligence/why.png"
                     alt="Artificial Intelligence Why Choose Us"
                     width={600}
                     height={400}
@@ -253,10 +253,13 @@ const SoftwareEnterprisePage = () => {
                       model monitoring, MLOps and governance.
                     </p>
                   </div>
-                  <Link href="/contact" legacyBehavior>
-                    <a className="btn hero_cta small" onClick={ClickHandler}>
-                      <span className="btn_label">Talk to an Expert</span>
-                    </a>
+                  <Link href="/contact" className="btn" onClick={ClickHandler}>
+                    <span className="btn_label" data-text="Talk to an Expert">
+                      Talk to an Expert
+                    </span>
+                    <span className="btn_icon">
+                      <i className="fa-solid fa-arrow-up-right"></i>
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -270,7 +273,6 @@ const SoftwareEnterprisePage = () => {
       <Footer />
       <Scrollbar />
 
-      {/* single styled-jsx block (global) to avoid nested-styled-jsx build errors */}
       <style jsx global>{`
         /* Hero video */
         .ai_video_hero {
