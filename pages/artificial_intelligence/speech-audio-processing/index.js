@@ -14,26 +14,26 @@ const Services = [
     title: "Speech-to-Text Transcription",
     path: "/service/technology/speech-ai/speech-to-text",
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai2.jpg", // Ensure image paths exist or update them
+    sImg: "/img/services/ai-ml/speech.png", // Ensure image paths exist or update them
   },
   {
     title: "Text-to-Speech",
     path: "/service/technology/speech-ai/text-to-speech",
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai3.jpg",
+    sImg: "/img/services/ai-ml/speech1.png",
   },
   {
     title: "Voice Command & Control Interfaces",
     path: "/service/technology/speech-ai/voice-command",
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai4.jpg",
+    sImg: "/img/services/ai-ml/speech2.png",
   },
 ];
 
 const Service = {
   title: "Speech & Audio Intelligence",
   description: `Harness voice and audio data with our Speech & Audio AI services. We convert spoken content into accurate text (Speech-to-Text) — useful for transcriptions, call-center logs, meeting minutes, or voice-command systems. We also provide Text-to-Speech capabilities for natural, human-like speech output — powering voice assistants, IVR systems, e-learning platforms, and more.`,
-  images: ["/img/services/ai-ml/ai1.jpg"],
+  images: ["/img/services/ai-ml/speech3.png"],
 };
 
 const SpeechAndAudioAI = () => {

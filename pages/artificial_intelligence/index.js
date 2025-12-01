@@ -13,22 +13,22 @@ const Services = [
   {
     title: "NLP & Conversational AI",
     path: "/artificial-intelligence/nlp-conversational-ai",
-    sImg: "/img/services/ai/ai_nlp.jpg", // Placeholder image path
+    sImg: "/img/services/artificial-intelligence/nlp.jpg", // Placeholder image path
   },
   {
     title: "Computer Vision & Image Intelligence",
     path: "/artificial_intelligence/computer-vision-image-video-ai",
-    sImg: "/img/services/ai/ai_vision.jpg", // Placeholder image path
+    sImg: "/img/services/artificial-intelligence/computer-vision.jpg", // Placeholder image path
   },
   {
     title: "Speech & Audio Intelligence",
     path: "/artificial_intelligence/speech-audio-processing",
-    sImg: "/img/services/ai/ai_audio.jpg", // Placeholder image path
+    sImg: "/img/services/artificial-intelligence/speech-audio.png", // Placeholder image path
   },
   {
     title: "Data & Predictive Analytics",
     path: "/artificial_intelligence/data-predictive-analytics",
-    sImg: "/img/services/ai/ai_analytics.jpg", // Placeholder image path
+    sImg: "/img/services/artificial-intelligence/data-analytics.jpg", // Placeholder image path
   },
 ];
  
@@ -291,7 +291,7 @@ const SoftwareEnterprisePage = () => {
               <div className="col-lg-5 order-lg-last">
                 <div className="team_cartoon_image">
                   <Image
-                    src="/img/services/ai/ai_whychooseus.jpg"
+                    src="/img/services/artificial-intelligence/why.png"
                     alt="Artificial Intelligence Why Choose Us"
                     width={500}
                     height={500}
