@@ -19,6 +19,16 @@ import cases from "/public/images/case/case_image_4.webp";
 // Navigation data
 const navLinks = [
   { href: "/", label: "Home" },
+
+  { href: "/artificial-intelligence", label: "Artificial Intelligence" ,
+    children: [
+      { href: "/artificial-intelligence/nlp-conversational-ai", label: "NLP & Conversational AI" },
+      { href: "/artificial-intelligence/computer-vision-image-video-ai", label: "Computer Vision & Image/Video AI" },
+      { href: "/artificial-intelligence/speech-audio-processing", label: "Speech & Audio Processing" },
+      { href: "/artificial-intelligence/data-predictive-analytics", label: "Data & Predictive Analytics" },
+
+    ],
+  },
   {
     href: "/service",
     label: "Services",
