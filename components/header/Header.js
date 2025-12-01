@@ -20,13 +20,26 @@ import cases from "/public/images/case/case_image_4.webp";
 const navLinks = [
   { href: "/", label: "Home" },
 
-  { href: "/artificial_intelligence", label: "Artificial Intelligence" ,
+  {
+    href: "/artificial_intelligence",
+    label: "Artificial Intelligence",
     children: [
-      { href: "/artificial_intelligence/nlp-conversational-ai", label: "NLP & Conversational AI" },
-      { href: "/artificial_intelligence/computer-vision-image-video-ai", label: "Computer Vision & Image/Video AI" },
-      { href: "/artificial_intelligence/speech-audio-processing", label: "Speech & Audio Processing" },
-      { href: "/artificial_intelligence/data-predictive-analytics", label: "Data & Predictive Analytics" },
-
+      {
+        href: "/artificial_intelligence/nlp-conversational-ai",
+        label: "NLP & Conversational AI",
+      },
+      {
+        href: "/artificial_intelligence/computer-vision-image-video-ai",
+        label: "Computer Vision & Image/Video AI",
+      },
+      {
+        href: "/artificial_intelligence/speech-audio-processing",
+        label: "Speech & Audio Processing",
+      },
+      {
+        href: "/artificial_intelligence/data-predictive-analytics",
+        label: "Data & Predictive Analytics",
+      },
     ],
   },
   {
@@ -421,7 +434,7 @@ const Header2 = (props) => {
         >
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-xl-3 col-lg-2 col-5">
+              <div className="col-xl-2 col-lg-2 col-5">
                 <div className="site_logo">
                   <Link onClick={ClickHandler} className="site_link" href="/">
                     <div className="d-flex align-items-center">
@@ -444,7 +457,7 @@ const Header2 = (props) => {
               </div>
 
               {/* Desktop Navigation */}
-              <div className="col-xl-6 col-lg-7 d-none d-lg-block">
+              <div className="col-xl-8 col-lg-7 d-none d-lg-block">
                 <nav className="main_menu navbar navbar-expand-lg">
                   <div className="main_menu_inner collapse navbar-collapse justify-content-lg-center">
                     <ul className="main_menu_list unordered_list justify-content-center list-unstyled d-flex mb-0">
@@ -503,7 +516,7 @@ const Header2 = (props) => {
                 </nav>
               </div>
 
-              <div className="col-xl-3 col-lg-3 col-7">
+              <div className="col-xl-2 col-lg-3 col-7">
                 <ul className="header_btns_group unordered_list justify-content-end list-unstyled d-flex align-items-center mb-0">
                   {/* Mobile Menu Toggle Button */}
                   <li>
