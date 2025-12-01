@@ -26,7 +26,7 @@ const Services = [
     title: "Speech & Audio Intelligence",
     path: "/artificial-intelligence/speech-audio-intelligence",
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/artificial-intelligence/speech-audio.jpg",
+    sImg: "/img/services/artificial-intelligence/speech-audio.png",
   },
   {
     title: "Data & Predictive Analytics",
