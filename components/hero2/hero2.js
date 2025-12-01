@@ -39,7 +39,7 @@ const Hero2 = (props) => {
               </p>
               <ul className="step_list text-white unordered_list_block">
                 <li>AI & ML-powered enterprise solutions</li>
-                <li> Helping Business , Manufacturers and Startups</li>
+                <li> Helping Business , Manufactures and Startups</li>
               </ul>
               <ul className="btns_group unordered_list p-0 justify-content-start">
                 <li>
