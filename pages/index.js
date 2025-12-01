@@ -10,6 +10,7 @@ import BlogSection from "@/components/software-company-components/BlogSection/Bl
 import ContactSection from "@/components/software-company-components/ContactSection";
 import Scrollbar from "@/components/scrollbar/scrollbar";
 import Footer from "@/components/footer/Footer";
+import Industries from "@/api/industries";
 
 const HomePage2 = () => {
   return (
@@ -20,7 +21,7 @@ const HomePage2 = () => {
           <Hero2 />
           <FeaturePartners />
           <ServiceSection />
-        
+        <Industries/>
           <About />
           <ProcessTechnology />
           {/* <FaqSection /> */}

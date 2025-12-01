@@ -25,7 +25,7 @@ const Services = [
       "Machine Learning Models",
       "Natural Language Processing",
       "Computer Vision Solutions",
-      "Intelligent Automation",
+      
       "AI & ML",
     ],
   },
