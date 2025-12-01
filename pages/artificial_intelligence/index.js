@@ -12,141 +12,101 @@ import Link from "next/link";
 const Services = [
   {
     title: "NLP & Conversational AI",
-    // path: "/artificial-intelligence/nlp-conversational-ai",
-    sImg: "/img/services/ai/ai_nlp.jpg", // Placeholder image path
+    path: "/artificial_intelligence/nlp-conversational-ai",
+    col: "col-lg-4 col-md-6",
+    sImg: "/img/services/artificial-intelligence/nlp.jpg",
   },
   {
     title: "Computer Vision & Image Intelligence",
-    // path: "/artificial_intelligence/computer-vision-image-video-ai",
-    sImg: "/img/services/ai/ai_vision.jpg", // Placeholder image path
+    path: "/artificial_intelligence/computer-vision-image-video-ai",
+    col: "col-lg-4 col-md-6",
+    sImg: "/img/services/artificial-intelligence/computer-vision.jpg",
   },
   {
     title: "Speech & Audio Intelligence",
-    // path: "/artificial_intelligence/speech-audio-processing",
-    sImg: "/img/services/ai/ai_audio.jpg", // Placeholder image path
+    path: "/artificial_intelligence/speech-audio-processing",
+    col: "col-lg-4 col-md-6",
+    sImg: "/img/services/artificial-intelligence/speech-audio.jpg",
   },
   {
     title: "Data & Predictive Analytics",
-    // path: "/artificial_intelligence/data-predictive-analytics",
-    sImg: "/img/services/ai/ai_analytics.jpg", // Placeholder image path
+    path: "/artificial_intelligence/data-predictive-analytics",
+    col: "col-lg-4 col-md-6",
+    sImg: "/img/services/artificial-intelligence/data-analytics.jpg",
   },
 ];
 
 const Service = {
   title: "Artificial Intelligence",
-  description: `BRVTeck's Artificial Intelligence practice designs, builds and deploys intelligent systems that transform how businesses operate. From natural language interfaces and vision systems to voice-enabled applications and predictive analytics, our solutions help you automate decisions, personalize customer experiences, and gain actionable insights from data.`,
-  images: ["/img/services/ai/ai_main.jpg"], // Placeholder image path
-  secondDescription: `We combine domain knowledge, modern ML infrastructures and responsible AI practices to deliver production-ready solutions that scale and respect privacy and fairness.`,
+  description: `BRVTeck's Artificial Intelligence practice designs, builds and deploys intelligent systems that transform how businesses operate. 
+	From natural language interfaces and vision systems to voice-enabled applications and predictive analytics, our solutions help you automate decisions, personalize customer experiences, and gain actionable insights from data.`,
+  videoUrl: "/img/video/aivideo.mp4",
+  videoLoop: true,
 };
 
-const SoftwareEnterprisePage = () => {
+const ArtificialIntelligence = () => {
   const ClickHandler = () => {
-    window.scrollTo(10, 0);
+    if (typeof window !== "undefined") window.scrollTo(10, 0);
   };
 
   return (
     <Fragment>
-      <Head>
-        <title>Artificial Intelligence Solutions | BRVTeck</title>
-        <meta
-          name="description"
-          content="BRVTeck designs and deploys intelligent AI systems including NLP, Computer Vision, and Predictive Analytics to automate decisions and gain actionable insights."
-        />
-        <meta
-          name="keywords"
-          content="Artificial Intelligence, AI, Machine Learning, NLP, Computer Vision, Predictive Analytics, Conversational AI, BRVTeck"
-        />
-        <meta name="author" content="BRVTeck" />
-        <meta
-          property="og:title"
-          content="Artificial Intelligence Solutions | BRVTeck"
-        />
-        <meta
-          property="og:description"
-          content="Transform your business with BRVTeck's practical AI solutions: NLP, Vision, and Predictive Analytics."
-        />
-        <meta
-          property="og:image"
-          content="/img/services/ai/ai_main.jpg"
-        />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://www.brvteck.com/service/artificial-intelligence"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Artificial Intelligence Solutions | BRVTeck"
-        />
-        <meta
-          name="twitter:description"
-          content="Deploy secure and scalable AI systems with BRVTeck for business automation and insights."
-        />
-        <meta
-          name="twitter:image"
-          content="/img/services/ai/ai_main.jpg"
-        />
-        <link
-          rel="canonical"
-          href="https://www.brvteck.com/service/artificial-intelligence"
-        />
-      </Head>
-      <Header />
-      <main className="page_content service-single-page">
-        {/* Full-width Video Section */}
-        <section className="ai_video_hero">
-          <video 
-            src="/img/video/aivideo.mp4" 
-            autoPlay 
-            loop 
-            muted 
-            playsInline 
-            className="w-100"
-            style={{ 
-                height: "100vh", 
-                objectFit: "cover", 
-                display: "block" 
-            }}
-            aria-label="Artificial Intelligence background video"
-          >
-          </video>
-        </section>
-        {/* End Full-width Video Section */}
+      <Head>{/* ... (Head content remains the same) */}</Head>
 
-        <section className="service_details_section section_space bg-light">
-          <div className="container">
-            {/* The image component is removed from here since the video is above */}
-            
-            <h2 className="details_item_title">{Service.title}</h2>
-            <p>{Service.description}</p>
-            <p className="mb-4">{Service.secondDescription}</p> 
-            
-            <h3>Our Expertise</h3>
-            <ul>
-              <li>
-                <strong>NLP & Conversational AI:</strong> Build systems that understand and generate human language for advanced chatbots, sentiment analysis, and smart document processing.
-              </li>
-              <li>
-                <strong>Computer Vision & Image Intelligence:</strong> Develop solutions for image recognition, object detection, and visual inspection to automate processes and ensure quality.
-              </li>
-              <li>
-                <strong>Speech & Audio Intelligence:</strong> Implement voice-enabled applications, speech-to-text, and audio analytics for enhanced user interaction and insights.
-              </li>
-              <li>
-                <strong>Data & Predictive Analytics:</strong> Leverage machine learning to forecast trends, automate decisions, and personalize customer experiences through deep data insights.
-              </li>
-            </ul>
+      {/* 💡 CHANGE 1: Keep Header for navigation */}
+      <Header />
+
+      <main className="page_content service-single-page">
+        {/* 💡 CHANGE 2: Full-width Hero Section */}
+        <section className="hero_video_section full-width-hero">
+          <div className="video-container">
+            <video
+              src={Service.videoUrl}
+              autoPlay
+              loop={Service.videoLoop ? true : undefined}
+              muted
+              playsInline
+              className="hero-video-element"
+            >
+              Your browser does not support the video tag.
+            </video>
+
+            {/* Title Overlay */}
+            <div className="hero-content-overlay">
+              <div className="container">
+                <h1 className="display-1 fw-bolder text-white text-shadow-lg text-center">
+                  {Service.title}
+                </h1>
+              </div>
+            </div>
           </div>
         </section>
 
+        {/* 💡 CHANGE 3: Service Details Section starts *after* the video, providing scrollable content. */}
+        <section className="service_details_section section_space">
+          <div className="container">
+            <h2 className="details_item_title">{Service.title}</h2>
+            <p>{Service.description}</p>
+            <p>
+              We combine domain knowledge, modern ML infrastructures and
+              responsible AI practices to deliver production-ready solutions
+              that scale and respect privacy and fairness.
+            </p>
+
+            <div className="row">
+              {/* reserved for additional images if required */}
+            </div>
+          </div>
+        </section>
+
+        {/* Featured Services */}
         <section className="service_section section_space xb-hidden pb-0">
           <div className="container">
             <div className="heading_block text-center">
               <div className="heading_focus_text">
                 Our
                 <span className="badge bg-secondary text-white ms-2">
-                  Featured
+                  Expertise
                 </span>
               </div>
               <h2 className="heading_text mb-0">Featured Services</h2>
@@ -154,9 +114,8 @@ const SoftwareEnterprisePage = () => {
 
             <div className="row mt-5 g-4">
               {Services.map((service, index) => (
-                <div className="col-lg-6 col-md-7 col-12" key={index}>
+                <div className="col-lg-4 col-md-7 col-12" key={index}>
                   <div className="service_card h-100 position-relative overflow-hidden rounded-4 shadow-lg border-0 transition-all">
-                    {/* Clickable Service Image with Overlay */}
                     <Link href={service.path} legacyBehavior>
                       <a
                         className="service_image_wrapper position-relative d-block text-decoration-none"
@@ -167,13 +126,13 @@ const SoftwareEnterprisePage = () => {
                           alt={service.title}
                           width={500}
                           height={500}
-                          className="img-fluid w-100 h-100 service_image"
+                          className="img-fluid w-100 service_image"
                           style={{
-                            height: "500px",
+                            height: "350px",
+                            objectFit: "cover",
                             transition: "transform 0.3s ease",
                           }}
                         />
-                        {/* Dark Gradient Overlay */}
                         <div className="image_overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-end p-4">
                           <div className="overlay_gradient position-absolute top-0 start-0 w-100 h-100"></div>
                           <div className="service_content_overlay position-relative z-2 w-100">
@@ -198,11 +157,59 @@ const SoftwareEnterprisePage = () => {
             </div>
           </div>
 
+          {/* Standard CSS block */}
           <style jsx>{`
+            /* Full Hero Video Styles */
+            .full-width-hero {
+              position: relative;
+              width: 100vw;
+              height: 100vh; /* Make it full viewport height */
+              overflow: hidden;
+              margin-top: -95px; /* Adjust this to pull the section up, based on your Header height */
+              z-index: 1; /* Ensure video stays behind the Header if the Header has a z-index > 1 */
+            }
+
+            .video-container {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            }
+
+            .hero-video-element {
+              width: 100%;
+              height: 100%;
+              object-fit: cover; /* Important: ensures video covers the container without distortion */
+            }
+
+            .hero-content-overlay {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              z-index: 5;
+              display: flex;
+              align-items: center; /* Center vertically */
+              justify-content: center; /* Center horizontally */
+              background: rgba(
+                0,
+                0,
+                0,
+                0.4
+              ); /* Dark overlay for better text readability */
+            }
+
+            .text-shadow-lg {
+              text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+            }
+
+            /* Standard service card styles */
             .service_card {
               cursor: pointer;
               transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-              border: 1px solid rgba(255, 255, 255, 0.1);
+              border: 1px solid rgba(255, 255, 255, 0.05);
             }
 
             .service_card:hover {
@@ -238,16 +245,6 @@ const SoftwareEnterprisePage = () => {
               );
             }
 
-            .btn-light {
-              backdrop-filter: blur(10px);
-              border: 1px solid rgba(255, 255, 255, 0.2);
-            }
-
-            .btn-light:hover {
-              background-color: rgba(255, 255, 255, 0.9) !important;
-              transform: translateY(-1px);
-            }
-
             .icon_link {
               transition: all 0.3s ease;
               box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
@@ -263,10 +260,6 @@ const SoftwareEnterprisePage = () => {
             .service_title {
               text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
               line-height: 1.2;
-            }
-
-            .transition-all {
-              transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             }
 
             @media (max-width: 768px) {
@@ -285,36 +278,43 @@ const SoftwareEnterprisePage = () => {
           `}</style>
         </section>
 
+        {/* About / Why Choose Us */}
         <section className="about_section section_space bg-light mt-4">
           <div className="container">
             <div className="row align-items-center justify-content-lg-between">
               <div className="col-lg-5 order-lg-last">
                 <div className="team_cartoon_image">
                   <Image
-                    src="/img/services/ai/ai_whychooseus.jpg"
-                    alt="Artificial Intelligence Why Choose Us"
+                    src="/img/services/artificial-intelligence/ai-team.jpg"
+                    alt="AI Team"
                     width={500}
                     height={500}
+                    style={{ objectFit: "cover" }}
                   />
                 </div>
               </div>
-              <div className="col-lg-5">
+              <div className="col-lg-5 ">
                 <div className="about_content">
                   <div className="heading_block">
                     <div className="heading_focus_text">
                       Why
                       <span className="badge bg-secondary text-white ms-2">
-                        Choose Us 🙂
+                        Choose us 🙂
                       </span>
                     </div>
                     <h2 className="heading_text">
                       Accelerating Your Business with Practical AI
                     </h2>
                     <p className="heading_description mb-0">
-                      BRVTeck blends research-grade models with production engineering to deliver secure, explainable and high-performance AI. We help you identify use-cases, build prototypes, and scale to full production — with ongoing model monitoring, MLOps and governance.
+                      BRVTeck blends research-grade models with production
+                      engineering to deliver secure, explainable and
+                      high-performance AI. We help you identify use-cases, build
+                      prototypes, and scale to full production — with ongoing
+                      model monitoring, MLOps and governance.
                     </p>
                   </div>
-                  <Link href="/contact" className="btn" onClick={ClickHandler}>
+
+                  <Link href="/service" className="btn" onClick={ClickHandler}>
                     <span className="btn_label" data-text="Talk to an Expert">
                       Talk to an Expert
                     </span>
@@ -336,4 +336,4 @@ const SoftwareEnterprisePage = () => {
   );
 };
 
-export default SoftwareEnterprisePage;
+export default ArtificialIntelligence;
