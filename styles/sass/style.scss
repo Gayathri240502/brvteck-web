@@ -1,0 +1,118 @@
+/* Table Of Content - start
+================================================== */
+/* 
+* Project Name   :  Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template
+* File           :  CSS Base
+* Version        :  1.0.0
+* Author         :  XpressBuddy (https://themeforest.net/user/xpressbuddy/portfolio)
+* Developer			 :	webrok (https://www.fiverr.com/webrok?up_rollout=true)
+
+==================================================
+
+1 - Template Global Settings
+* - 1.1 - Template Fonts
+* - 1.2 - Template Reset
+
+2 - Template Elements
+* - 2.01 - Template CSS Animations
+* - 2.02 - Backtotop Button
+* - 2.03 - Template Gapping or Spacing
+* - 2.04 - Order & Unorder List
+* - 2.05 - Buttons
+* - 2.06 - Typography
+* - 2.07 - Authorbox
+* - 2.08 - Carousel or Slider
+* - 2.90 - Form
+* - 2.10 - Video
+* - 2.11 - Social Icons
+* - 2.12 - Counter or Funfact
+* - 2.13 - Rating Star
+* - 2.14 - Accordion
+* - 2.15 - Pagination Nav
+* - 2.16 - Icon Block
+* - 2.17 - Iconbox
+* - 2.18 - Tab
+
+3 - Template Parts
+* - 3.01 - Site Header
+* - 3.02 - Site Footer
+* - 3.03 - Page Header, Page Banner, Breadcrumb
+* - 3.04 - Sidebar
+
+4 - Template Components
+* - 4.01 - Blog
+* - 4.02 - Call To Action
+* - 4.03 - Case
+* - 4.04 - Client Logo
+* - 4.05 - Hero Sections
+* - 4.06 - Policy
+* - 4.07 - Portfolio
+* - 4.08 - Review
+* - 4.09 - Service
+* - 4.10 - Team
+
+5 - Template Pages
+* - 5.01 - About Page
+* - 5.02 - Contact Page
+* - 5.03 - Details Pages
+* - 5.04 - Pricing Page
+* - 5.05 - Home Pages
+
+*/
+/* Table Of Content - end
+================================================== */
+
+// Template Global Settings
+@use "./variable";
+@use "fonts";
+@use "reset";
+
+// Template Elements
+@use "elements/animation";
+@use "elements/backtotop";
+@use "elements/space";
+@use "elements/button";
+@use "elements/typography";
+@use "elements/list";
+@use "elements/form";
+@use "elements/carousel";
+@use "elements/iconblock";
+@use "elements/iconbox";
+@use "elements/tab";
+@use "elements/funfact";
+@use "elements/authorbox";
+@use "elements/video";
+@use "elements/social";
+@use "elements/rating";
+@use "elements/accordion";
+@use "elements/pagination";
+
+// Template Parts
+@use "template-parts/header";
+@use "template-parts/footer";
+@use "template-parts/pagebanner";
+@use "template-parts/sidebar";
+
+// Template Components
+@use "components/blog";
+@use "components/calltoaction";
+@use "components/case";
+@use "components/clientlogo";
+@use "components/hero";
+@use "components/policy";
+@use "components/portfolio";
+@use "components/review";
+@use "components/service";
+@use "components/team";
+
+// Template Pages
+@use "templates/about";
+@use "templates/contact";
+@use "templates/details";
+@use "templates/pricing";
+@use "templates/home";
+
+// Template Responsive For Small Devices
+@use "responsive";
+
+
