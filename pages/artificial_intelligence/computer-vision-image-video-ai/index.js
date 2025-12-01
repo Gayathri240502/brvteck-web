@@ -157,7 +157,6 @@ const ComputerVision = () => {
                 <div className="col-lg-4 col-md-7 col-12" key={index}>
                   <div className="service_card h-100 position-relative overflow-hidden rounded-4 shadow-lg border-0 transition-all">
                     {/* Clickable Service Image with Overlay */}
-                    <Link href={service.path} legacyBehavior>
                       <a
                         className="service_image_wrapper position-relative d-block text-decoration-none"
                         onClick={ClickHandler}
@@ -192,7 +191,6 @@ const ComputerVision = () => {
                           </div>
                         </div>
                       </a>
-                    </Link>
                   </div>
                 </div>
               ))}

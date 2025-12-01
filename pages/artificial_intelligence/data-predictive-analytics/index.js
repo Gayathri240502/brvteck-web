@@ -14,26 +14,26 @@ const Services = [
     title: "Demand & Inventory Forecasting",
     // path: "/service/technology/analytics/forecasting",
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai2.jpg", // Ensure image paths exist or update them
+    sImg: "/img/services/ai-ml/demand.png", // Ensure image paths exist or update them
   },
   {
     title: "Recommendation Systems & Personalization",
     // path: "/service/technology/analytics/recommendations",
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai3.jpg",
+    sImg: "/img/services/ai-ml/personal.png",
   },
   {
     title: "Anomaly Detection & Fraud Prevention",
     // path: "/service/technology/analytics/anomaly-detection",
     col: "col-lg-4 col-md-6",
-    sImg: "/img/services/ai-ml/ai4.jpg",
+    sImg: "/img/services/ai-ml/fraud.png",
   },
 ];
 
 const Service = {
   title: "Data & Predictive Analytics",
   description: `Leverage data-driven AI to make smarter decisions. Our Data & Predictive Analytics services help you anticipate trends, forecast demand, personalize user experiences, and detect unusual patterns. Whether it’s demand forecasting, recommendation engines for content or products, or fraud detection via anomaly analysis — our AI solutions give you a competitive edge by transforming raw data into actionable business strategies.`,
-  images: ["/img/services/ai-ml/ai1.jpg"],
+  images: ["/img/services/ai-ml/p.png"],
 };
 
 const DataAndPredictiveAnalytics = () => {
@@ -158,7 +158,6 @@ const DataAndPredictiveAnalytics = () => {
                 <div className="col-lg-4 col-md-7 col-12" key={index}>
                   <div className="service_card h-100 position-relative overflow-hidden rounded-4 shadow-lg border-0 transition-all">
                     {/* Clickable Service Image with Overlay */}
-                    <Link href={service.path} legacyBehavior>
                       <a
                         className="service_image_wrapper position-relative d-block text-decoration-none"
                         onClick={ClickHandler}
@@ -193,7 +192,6 @@ const DataAndPredictiveAnalytics = () => {
                           </div>
                         </div>
                       </a>
-                    </Link>
                   </div>
                 </div>
               ))}
