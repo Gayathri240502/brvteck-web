@@ -50,7 +50,7 @@ const Services = [
     desc: "Autonomous systems & RPA",
     icon: Bot,
     sImg: "/img/industry/robo.png",
-     path: "/industries/robotics",
+    path: "/industries/robotic",
   },
   {
      title: "Media & Tech",
