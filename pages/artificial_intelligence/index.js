@@ -14,22 +14,22 @@ const Services = [
   {
     title: "NLP & Conversational AI",
     path: "/artificial_intelligence/nlp-conversational-ai",
-    sImg: "/img/services/ai/ai_nlp.jpg",
+    sImg: "/img/services/artificial-intelligence/nlp.jpg",
   },
   {
     title: "Computer Vision & Image Intelligence",
     path: "/artificial_intelligence/computer-vision-image-video-ai",
-    sImg: "/img/services/ai/ai_vision.jpg",
+    sImg: "/img/services/artificial-intelligence/computer-vision.jpg",
   },
   {
     title: "Speech & Audio Intelligence",
     path: "/artificial_intelligence/speech-audio-processing",
-    sImg: "/img/services/ai/ai_audio.jpg",
+    sImg: "/img/services/artificial-intelligence/speech-audio.png",
   },
   {
     title: "Data & Predictive Analytics",
     path: "/artificial_intelligence/data-predictive-analytics",
-    sImg: "/img/services/ai/ai_analytics.jpg",
+    sImg: "/img/services/artificial-intelligence/data-analytics.jpg",
   },
 ];
  
