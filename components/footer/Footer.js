@@ -149,7 +149,7 @@ const Footer = () => {
               </div>
 
               {/* Products */}
-              <div className="col-lg-2 col-md-6">
+              <div className="col-lg-3 col-md-6">
                 <div className="footer_widget">
                   <h3 className="footer_info_title">Products</h3>
                   <ul className="icon_list unordered_list_block">
@@ -165,7 +165,7 @@ const Footer = () => {
               </div>
 
               {/* Industries */}
-              <div className="col-lg-2 col-md-6">
+              <div className="col-lg-3 col-md-6">
                 <div className="footer_widget">
                   <h3 className="footer_info_title">Industries</h3>
                   <ul className="icon_list unordered_list_block">
@@ -181,20 +181,6 @@ const Footer = () => {
               </div>
 
               {/* Technology */}
-              <div className="col-lg-2 col-md-6">
-                <div className="footer_widget">
-                  <h3 className="footer_info_title">Technology</h3>
-                  <ul className="icon_list unordered_list_block">
-                    {technology.map((tech, i) => (
-                      <li key={i}>
-                        <Link href={tech.href}>
-                          <span>{tech.label}</span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
             </div>
 
             {/* Sub-sections Row */}
@@ -289,6 +275,20 @@ const Footer = () => {
                       <li key={i}>
                         <Link href={link.href}>
                           <span>{link.label}</span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-2 col-md-6">
+                <div className="footer_widget">
+                  <h3 className="footer_info_title">Technology</h3>
+                  <ul className="icon_list unordered_list_block">
+                    {technology.map((tech, i) => (
+                      <li key={i}>
+                        <Link href={tech.href}>
+                          <span>{tech.label}</span>
                         </Link>
                       </li>
                     ))}
