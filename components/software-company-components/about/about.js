@@ -147,24 +147,24 @@ const About = () => {
           <div className="case_studies_wrapper">
             {[
               {
-                title: "HIMS",
+                title: "AI-HIMS",
                 sub: "Healthcare",
                 description:
-                  "Explore our Digital Hospital Management System, designed to simplify and enhance healthcare operations. Experience real-time insights, improved workflows, and better patient engagement.",
+                  "Explore our AI-Digital Hospital Management System, designed to simplify and enhance healthcare operations. Experience real-time insights, improved workflows, and better patient engagement.",
                 Industry: "Healthcare",
                 pImg: "/img/products/hms4.jpg",
               },
               {
-                title: "ERP Solutions",
-                sub: "Enterprise",
+                title: "AI-LMS",
+                sub: "Learning",
                 description:
                   "Unlock the full potential of your business with our intelligent ERP platform. Automate workflows, optimize resources, and drive growth with actionable insights.",
                 Industry: "Corporate",
                 pImg: "/img/products/erp1.jpg",
               },
               {
-                title: "HRMS Solutions",
-                sub: "Human Resources",
+                title: "AI-CRM",
+                sub: "Customer Relationship",
                 description:
                   "Streamline HR with automation—from payroll to performance tracking. Empower employees and boost efficiency through smart workforce management.",
                 Industry: "HR",
