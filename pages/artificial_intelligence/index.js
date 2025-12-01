@@ -18,19 +18,19 @@ const Services = [
   },
   {
     title: "Computer Vision & Image Intelligence",
-    path: "/service/technology/artificial-intelligence/computer-vision-image-intelligence",
+    path: "/artificial-intelligence/computer-vision-image-intelligence",
     col: "col-lg-4 col-md-6",
     sImg: "/img/services/artificial-intelligence/computer-vision.jpg",
   },
   {
     title: "Speech & Audio Intelligence",
-    path: "/service/technology/artificial-intelligence/speech-audio-intelligence",
+    path: "/artificial-intelligence/speech-audio-intelligence",
     col: "col-lg-4 col-md-6",
     sImg: "/img/services/artificial-intelligence/speech-audio.jpg",
   },
   {
     title: "Data & Predictive Analytics",
-    path: "/service/technology/artificial-intelligence/data-predictive-analytics",
+    path: "/artificial-intelligence/data-predictive-analytics",
     col: "col-lg-4 col-md-6",
     sImg: "/img/services/artificial-intelligence/data-analytics.jpg",
   },
@@ -65,7 +65,7 @@ const ArtificialIntelligence = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.brvteck.com/services/technology/artificial-intelligence"
+          content="https://www.brvteck.com/artificial-intelligence"
         />
         <meta property="og:title" content="Artificial Intelligence | BRVTeck" />
         <meta
@@ -77,7 +77,7 @@ const ArtificialIntelligence = () => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://www.brvteck.com/services/technology/artificial-intelligence"
+          content="https://www.brvteck.com/artificialintelligence"
         />
         <meta property="twitter:title" content="Artificial Intelligence | BRVTeck" />
         <meta
