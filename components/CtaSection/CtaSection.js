@@ -26,7 +26,7 @@ const CtaSection = (props) => {
           href="/contact"
           className="btn btn-primary"
         >
-          <span className="btn_label" data-text="Contact Us Today!">
+          <span className="btn_label" data-text="Contact Us Today! ">
             Contact Us Today!
           </span>
           <span className="btn_icon">
