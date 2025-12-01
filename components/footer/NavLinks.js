@@ -216,7 +216,7 @@ export const navLinks = [
     children: [
       {
         href: "/products/ AI-HIMS",
-        label: "AI Hospital Information Management system(AI-HMS)",
+        label: "AI Hospital Information Management system(AI-HIMS)",
       },
       {
         href: "/products/AI-LMS",

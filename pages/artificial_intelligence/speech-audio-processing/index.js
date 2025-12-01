@@ -12,19 +12,19 @@ import Link from "next/link";
 const Services = [
   {
     title: "Speech-to-Text Transcription",
-    path: "/service/technology/speech-ai/speech-to-text",
+    // path: "/service/technology/speech-ai/speech-to-text",
     col: "col-lg-4 col-md-6",
     sImg: "/img/services/ai-ml/speech.png", // Ensure image paths exist or update them
   },
   {
     title: "Text-to-Speech",
-    path: "/service/technology/speech-ai/text-to-speech",
+    // path: "/service/technology/speech-ai/text-to-speech",
     col: "col-lg-4 col-md-6",
     sImg: "/img/services/ai-ml/speech1.png",
   },
   {
     title: "Voice Command & Control Interfaces",
-    path: "/service/technology/speech-ai/voice-command",
+    // path: "/service/technology/speech-ai/voice-command",
     col: "col-lg-4 col-md-6",
     sImg: "/img/services/ai-ml/speech2.png",
   },
@@ -158,7 +158,6 @@ const SpeechAndAudioAI = () => {
                 <div className="col-lg-4 col-md-7 col-12" key={index}>
                   <div className="service_card h-100 position-relative overflow-hidden rounded-4 shadow-lg border-0 transition-all">
                     {/* Clickable Service Image with Overlay */}
-                    <Link href={service.path} legacyBehavior>
                       <a
                         className="service_image_wrapper position-relative d-block text-decoration-none"
                         onClick={ClickHandler}
@@ -183,17 +182,16 @@ const SpeechAndAudioAI = () => {
                               {service.title}
                             </h3>
                             <div className="service_actions d-flex justify-content-start">
-                              <div
+                              {/* <div
                                 className="icon_link bg-white rounded-circle p-2 text-dark text-decoration-none d-flex align-items-center justify-content-center"
                                 style={{ width: "40px", height: "40px" }}
                               >
                                 <i className="fa-regular fa-arrow-up-right fs-6"></i>
-                              </div>
+                              </div> */}
                             </div>
                           </div>
                         </div>
                       </a>
-                    </Link>
                   </div>
                 </div>
               ))}
