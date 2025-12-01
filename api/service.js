@@ -22,11 +22,11 @@ const Services = [
     description:
       "Leverage cutting-edge AI technologies to automate and optimize enterprise workflows.",
     features: [
+       "AI & ML",
       "Machine Learning Models",
       "Natural Language Processing",
       "Computer Vision Solutions",
-      
-      "AI & ML",
+    
     ],
   },
   {
