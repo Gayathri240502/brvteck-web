@@ -12,19 +12,19 @@ import Link from "next/link";
 const Services = [
   {
     title: "Demand & Inventory Forecasting",
-    path: "/service/technology/analytics/forecasting",
+    // path: "/service/technology/analytics/forecasting",
     col: "col-lg-4 col-md-6",
     sImg: "/img/services/ai-ml/ai2.jpg", // Ensure image paths exist or update them
   },
   {
     title: "Recommendation Systems & Personalization",
-    path: "/service/technology/analytics/recommendations",
+    // path: "/service/technology/analytics/recommendations",
     col: "col-lg-4 col-md-6",
     sImg: "/img/services/ai-ml/ai3.jpg",
   },
   {
     title: "Anomaly Detection & Fraud Prevention",
-    path: "/service/technology/analytics/anomaly-detection",
+    // path: "/service/technology/analytics/anomaly-detection",
     col: "col-lg-4 col-md-6",
     sImg: "/img/services/ai-ml/ai4.jpg",
   },
@@ -183,12 +183,12 @@ const DataAndPredictiveAnalytics = () => {
                               {service.title}
                             </h3>
                             <div className="service_actions d-flex justify-content-start">
-                              <div
+                              {/* <div
                                 className="icon_link bg-white rounded-circle p-2 text-dark text-decoration-none d-flex align-items-center justify-content-center"
                                 style={{ width: "40px", height: "40px" }}
                               >
                                 <i className="fa-regular fa-arrow-up-right fs-6"></i>
-                              </div>
+                              </div> */}
                             </div>
                           </div>
                         </div>

@@ -75,55 +75,6 @@ const Industries = () => {
 
   return (
     <Fragment>
-      {/* <Head>
-        <title>BRV Technologies | Technology </title>
-        <meta
-          name="description"
-          content="Explore BRVTeck' comprehensive technology services, including SAP solutions, cybersecurity, Salesforce integration, IoT, AI/ML, and Snowflake data platforms. Empower your business with cutting-edge technology solutions."
-        />
-        <meta
-          name="keywords"
-          content="SAP solutions, cybersecurity, Salesforce, IoT, AI, machine learning, Snowflake, BRVTeck, technology services, digital transformation"
-        />
-        <meta name="author" content="BRV Technologies Private Limited" />
-
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://www.brvteck.com/services/technology"
-        />
-        <meta
-          property="og:title"
-          content="BRVTeck | SAP, Cybersecurity, Salesforce, IoT, AI/ML & Snowflake Solutions"
-        />
-        <meta
-          property="og:description"
-          content="Unlock business potential with BRV Technologies' technology services. From SAP solutions and cybersecurity to Salesforce integration, IoT, AI/ML, and Snowflake data platforms, we deliver innovative solutions tailored to your needs."
-        />
-        <meta property="og:image" content="/img/logo.png" />
-
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content="https://www.brvteck.com/services/technology"
-        />
-        <meta
-          property="twitter:title"
-          content="BRVTeck | SAP, Cybersecurity, Salesforce,IoT, AI/ML & Snowflake Solutions"
-        />
-        <meta
-          property="twitter:description"
-          content="Empower your business with BRV Technologies' expertise in SAP solutions, cybersecurity, Salesforce integration,  IoT, AI/ML, and Snowflake data platforms."
-        />
-        <meta property="twitter:image" content="/img/logo.png" />
-
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="contact" content="+91-8062177256" />
-        <meta name="email" content="sales@brvteck.com" />
-        <meta name="location" content="Mindspace, Hyderabad" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Header /> */}
       <main className="page_content service-single-page">
 
         <section className="service_section section_space xb-hidden pb-0">
