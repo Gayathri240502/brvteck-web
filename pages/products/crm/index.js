@@ -26,23 +26,23 @@ const wImg = "/img/products/crm2.jpg"; // key
 
 const PolicyIcons = [
   {
-    title: "Sales Automation",
+    title: "AI-Driven Sales Automation",
     icon: Gauge,
   },
   {
-    title: "Customer Data Management",
+    title: "Smart Customer Data Insights",
     icon: FileText,
   },
   {
-    title: "Analytics & Reporting",
+    title: "Predictive Analytics & Reporting",
     icon: BarChart3,
   },
   {
-    title: "Workflow Automation",
+    title: "AI-Enabled Workflow Automation",
     icon: Workflow,
   },
   {
-    title: "Secure Data Handling",
+    title: "Secure AI-Based Data Handling",
     icon: ShieldCheck,
   },
 ];
@@ -58,9 +58,9 @@ const Policy = [
         }}
       />
     ),
-    title: "CRM Implementation",
+    title: "AI-Based CRM Implementation",
     subTitle:
-      "Enhance customer engagement with tailored CRM implementation for your business. Streamline processes and improve customer relationships effectively.",
+      "Integrate powerful AI-driven CRM systems that automate customer engagement, improve decision-making, and enhance overall business performance.",
   },
   {
     icon: (
@@ -72,9 +72,9 @@ const Policy = [
         }}
       />
     ),
-    title: "CRM Migration",
+    title: "AI-Powered CRM Migration",
     subTitle:
-      "Seamless migration to modern CRM platforms for better performance and scalability. Empower your team with advanced tools to drive customer satisfaction.",
+      "Smooth migration to intelligent CRM platforms with machine-learning capabilities that deliver speed, accuracy, and future-ready performance.",
   },
   {
     icon: (
@@ -86,9 +86,9 @@ const Policy = [
         }}
       />
     ),
-    title: "CRM Integration",
+    title: "AI-Integrated CRM",
     subTitle:
-      "Integrate CRM solutions with existing systems for unified workflows and data insights. Maximize efficiency and optimize customer management.",
+      "Connect your CRM with advanced AI tools to enable automation, smart recommendations, and unified data visibility across the organization.",
   },
   {
     icon: (
@@ -100,9 +100,9 @@ const Policy = [
         }}
       />
     ),
-    title: "CRM Customization",
+    title: "Custom AI CRM Solutions",
     subTitle:
-      "Tailor CRM functionalities to meet the specific needs of your business. Ensure that your CRM aligns with your workflow and enhances productivity.",
+      "Customize CRM processes with AI-driven features to match your business needs, improve productivity, and streamline complex workflows.",
   },
   {
     icon: (
@@ -114,9 +114,9 @@ const Policy = [
         }}
       />
     ),
-    title: "CRM Analytics",
+    title: "AI-Powered CRM Analytics",
     subTitle:
-      "Leverage powerful analytics to gain insights into customer behavior, preferences, and trends. Make data-driven decisions to optimize your strategies.",
+      "Use predictive AI analytics to understand customer behavior, forecast trends, and make data-backed business decisions with confidence.",
   },
   {
     icon: (
@@ -128,9 +128,9 @@ const Policy = [
         }}
       />
     ),
-    title: "CRM Training & Support",
+    title: "AI CRM Training & Support",
     subTitle:
-      "Equip your team with the knowledge and skills to use CRM tools effectively. Benefit from ongoing support to ensure smooth operations and maximize ROI.",
+      "Empower teams with hands-on AI CRM training and continuous expert support to maximize adoption, accuracy, and long-term ROI.",
   },
 ];
 
@@ -141,24 +141,24 @@ const CrmPage = () => {
     <Fragment>
       <Head>
         <title>
-          CRM Solutions | Customer Relationship Management | Brvteck
+          AI-Based CRM Solutions | Intelligent Customer Management | Brvteck
         </title>
         <meta
           name="description"
-          content="Brvteck CRM solutions streamline customer management, boost sales, and improve business efficiency. Implementation, migration, integration, and customization for your business."
+          content="Brvteck AI-powered CRM solutions enhance customer experience, automate workflows, and deliver predictive insights using advanced machine learning."
         />
         <meta
           name="keywords"
-          content="CRM, Customer Relationship Management, CRM Solutions, Brvteck, CRM Implementation, CRM Integration, CRM Migration, CRM Customization, CRM Analytics"
+          content="AI CRM, Artificial Intelligence CRM, Smart CRM Solutions, AI Automation, Predictive CRM, Brvteck AI CRM"
         />
         <meta name="author" content="Brvteck" />
         <meta
           property="og:title"
-          content="CRM Solutions | Customer Relationship Management | Brvteck"
+          content="AI-Based CRM Solutions | Intelligent Customer Management | Brvteck"
         />
         <meta
           property="og:description"
-          content="Transform your business with Brvteck's CRM solutions: sales automation, analytics, integration, and more."
+          content="Transform your business with AI-powered CRM: automation, insights, prediction, and smarter customer engagement."
         />
         <meta property="og:image" content="/img/products/crm1.jpg" />
         <meta property="og:type" content="website" />
@@ -169,17 +169,17 @@ const CrmPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="CRM Solutions | Customer Relationship Management | Brvteck"
+          content="AI-Based CRM Solutions | Intelligent Customer Management | Brvteck"
         />
         <meta
           name="twitter:description"
-          content="Streamline customer management and boost sales with Brvteck CRM solutions."
+          content="Enhance customer engagement and decision-making with AI-powered CRM solutions."
         />
         <meta name="twitter:image" content="/img/products/crm1.jpg" />
         <link rel="canonical" href="https://www.brvteck.com/products/crm" />
       </Head>
       <PageTitle
-        pageTitle="Customer Relationship Management"
+        pageTitle="AI-Powered Customer Relationship Management"
         pagesub="products 😍"
         pageTop="Our"
       />
@@ -192,7 +192,7 @@ const CrmPage = () => {
               <div className="team_cartoon_image">
                 <Image
                   src={srImg}
-                  alt="Service Cartoon"
+                  alt="AI CRM"
                   width={500}
                   height={500}
                 />
@@ -202,18 +202,16 @@ const CrmPage = () => {
               <div className="about_content">
                 <div className="heading_block">
                   <div className="heading_focus_text">
-                    We Are CRM
+                    We Are AI-Based CRM
                     <span className="badge bg-secondary text-white">
                       IT Experts 🙂
                     </span>
                   </div>
                   <h2 className="heading_text">
-                    Customer Relationship Management
+                    AI-Driven Customer Relationship Management
                   </h2>
                   <p className="heading_description mb-0">
-                    Transform your business with our CRM solutions, designed to
-                    streamline customer interactions, boost sales, and improve
-                    overall efficiency.
+                    Upgrade your business with AI-enhanced CRM solutions that automate tasks, deliver predictive insights, and elevate customer experiences with unmatched efficiency.
                   </p>
                 </div>
                 <Link onClick={ClickHandler} href="/service" className="btn">
@@ -267,13 +265,14 @@ const CrmPage = () => {
           </div>
         </div>
       </section>
+
       {/* Key Features Section */}
       <section className="service_section section_space bg-light">
         <div className="container">
           <div className="row align-items-center justify-content-lg-between">
             <div className="col-lg-6">
               <div className="image_wrap">
-                <Image src={wImg} alt="CRM" width={600} height={400} />
+                <Image src={wImg} alt="AI CRM Features" width={600} height={400} />
               </div>
             </div>
             <div className="col-lg-6">
@@ -284,7 +283,7 @@ const CrmPage = () => {
                     features
                   </div>
                   <h2 className="heading_text mb-0">
-                    Key Benefits of Our CRM Solutions
+                    Key Benefits of Our AI-Powered CRM
                   </h2>
                 </div>
                 <ul className="service_facilities_group unordered_list">
