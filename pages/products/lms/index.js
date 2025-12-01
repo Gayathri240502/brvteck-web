@@ -28,23 +28,23 @@ const wImg = "/img/products/lms2.jpg"; // key
 
 const PolicyIcons = [
   {
-    title: "Course Analytics",
+    title: "AI Behavior Analytics",
     icon: BarChart3,
   },
   {
-    title: "Mobile Learning",
+    title: "AI-First Mobile Learning",
     icon: Smartphone,
   },
   {
-    title: "Certification & Assessment",
+    title: "AI Smart Certification",
     icon: Award,
   },
   {
-    title: "Integration Capabilities",
+    title: "AI Integrations",
     icon: Link2,
   },
   {
-    title: "Secure Access",
+    title: "AI Secure Access",
     icon: ShieldCheck,
   },
 ];
@@ -60,9 +60,9 @@ const Policy = [
         }}
       />
     ),
-    title: "Course Management",
+    title: "AI-Enhanced Course Management",
     subTitle:
-      "Easily create, manage, and organize courses with intuitive tools that enhance the learning experience for instructors and students.",
+      "Easily create and optimize courses with AI-driven recommendations, automated structuring, and intelligent content suggestions.",
   },
   {
     icon: (
@@ -74,9 +74,9 @@ const Policy = [
         }}
       />
     ),
-    title: "Student Engagement",
+    title: "AI-Driven Student Engagement",
     subTitle:
-      "Boost student participation with interactive content, discussion forums, quizzes, and real-time feedback.",
+      "Boost learner participation using AI-based adaptive content, personalized interactions, and predictive engagement alerts.",
   },
   {
     icon: (
@@ -88,9 +88,9 @@ const Policy = [
         }}
       />
     ),
-    title: "Analytics & Reporting",
+    title: "AI Analytics & Deep Insights",
     subTitle:
-      "Track student progress, course completion rates, and performance with detailed analytics and reporting tools.",
+      "Track learner behavior using AI-powered analytics, performance predictions, and automated reporting tools.",
   },
   {
     icon: (
@@ -102,9 +102,9 @@ const Policy = [
         }}
       />
     ),
-    title: "Mobile Learning",
+    title: "AI Personalized Mobile Learning",
     subTitle:
-      "Enable on-the-go learning with mobile-friendly interfaces and apps designed for seamless access across devices.",
+      "Deliver adaptive mobile-based learning experiences with AI-curated micro-lessons and real-time learner guidance.",
   },
   {
     icon: (
@@ -116,9 +116,9 @@ const Policy = [
         }}
       />
     ),
-    title: "Certification & Assessment",
+    title: "AI-Automated Assessments",
     subTitle:
-      "Create customizable certifications and assessments to validate learning outcomes and enhance credibility.",
+      "Use AI-generated quizzes, automated grading, and skill evaluations to assess learners more effectively.",
   },
   {
     icon: (
@@ -130,50 +130,50 @@ const Policy = [
         }}
       />
     ),
-    title: "Integration Capabilities",
+    title: "AI-Powered Smart Integrations",
     subTitle:
-      "Integrate the LMS with existing systems like CRM, ERP, or video conferencing tools for a unified learning experience.",
+      "Integrate your LMS with AI tools, CRMs, ERPs, and video platforms for a seamless learning ecosystem.",
   },
 ];
 
 const InfoBoxes = [
   {
     image: "/img/products/lms1.jpg",
-    title: "Transform Learning with Our LMS Solutions",
+    title: "Transform Learning with Our AI-Powered LMS",
     description:
-      "Our LMS solutions are designed to simplify the educational process for institutions, businesses, and educators. From course management to student engagement, we provide tools that create a more effective learning experience.",
+      "Our AI-driven LMS enhances learning efficiency with smart automation, adaptive content delivery, and predictive insights for institutions and enterprises.",
   },
   {
     image: "/img/products/lms2.jpg",
-    title: "Key Benefits of Our LMS Solutions",
+    title: "Key Benefits of Our AI LMS",
     description: (
       <div>
-        <p>Why Choose Our LMS Solutions?</p>
+        <p>Why Choose Our AI LMS?</p>
         <ul style={{ paddingLeft: "20px", margin: 0 }}>
-          <li>Customizable courses tailored to your needs.</li>
-          <li>Scalable platforms to accommodate growing users.</li>
-          <li>Enhanced collaboration through integrated tools.</li>
-          <li>Mobile-friendly access for flexible learning.</li>
-          <li>Real-time performance tracking and analytics.</li>
-          <li>Seamless integration with external systems.</li>
+          <li>AI-personalized learning journeys.</li>
+          <li>Scalable platform for growing learners.</li>
+          <li>Intelligent collaboration and automation tools.</li>
+          <li>Adaptive mobile learning powered by AI.</li>
+          <li>Real-time AI analytics and performance predictions.</li>
+          <li>Seamless integration with advanced AI systems.</li>
         </ul>
       </div>
     ),
   },
   {
     image: "/img/products/lms3.jpg",
-    title: "Why Choose Us",
+    title: "Why Choose Us for AI LMS?",
     description: (
       <div>
-        <p>Innovative LMS Solutions for Modern Learning</p>
+        <p>Advanced AI-Powered Learning Platform</p>
         <p>
-          Our LMS solutions empower organizations and educators to deliver impactful
-          learning experiences. We focus on usability, scalability, and integration
-          to ensure the best outcomes for learners and administrators.
+          Our AI LMS helps organizations deliver meaningful, adaptive, and
+          efficient learning experiences. With smart automation and deep
+          analytics, we enhance the capabilities of educators and training teams.
         </p>
         <p>
-          Whether you're an educational institution or a corporate training team,
-          our LMS platforms are tailored to meet your unique needs and help achieve your learning goals.
+          Whether you're a school, university, or enterprise, our AI LMS is
+          designed to scale with your needs and deliver future-ready training.
         </p>
       </div>
     ),
@@ -186,23 +186,23 @@ const LmsPage = () => {
   return (
     <Fragment>
       <Head>
-        <title>LMS Solutions | Learning Management System | Brvteck</title>
+        <title>AI LMS Solutions | AI Learning Management System | Brvteck</title>
         <meta
           name="description"
-          content="Brvteck LMS streamlines course management, student engagement, analytics, and mobile learning for educational institutions and businesses."
+          content="Brvteck AI LMS automates course creation, personalizes learning, and provides intelligent analytics for institutions and enterprises."
         />
         <meta
           name="keywords"
-          content="LMS, Learning Management System, E-learning, Course Management, Brvteck, Mobile Learning, Education Software"
+          content="AI LMS, AI Learning Management System, Adaptive Learning, AI Education, AI Course Management, Brvteck LMS"
         />
         <meta name="author" content="Brvteck" />
         <meta
           property="og:title"
-          content="LMS Solutions | Learning Management System | Brvteck"
+          content="AI LMS Solutions | AI Learning Management System | Brvteck"
         />
         <meta
           property="og:description"
-          content="Transform your learning and training operations with Brvteck's LMS: analytics, mobile access, integration, and more."
+          content="Enhance your learning and training operations with Brvteck's AI LMS—adaptive learning, AI analytics, automation, and more."
         />
         <meta property="og:image" content="/img/products/lms1.jpg" />
         <meta property="og:type" content="website" />
@@ -213,17 +213,17 @@ const LmsPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="LMS Solutions | Learning Management System | Brvteck"
+          content="AI LMS Solutions | AI Learning Management System | Brvteck"
         />
         <meta
           name="twitter:description"
-          content="Automate and optimize your education delivery with Brvteck LMS for analytics, mobile, and integration."
+          content="Reinvent learning with Brvteck's AI-powered LMS featuring automation, adaptive content, and advanced analytics."
         />
         <meta name="twitter:image" content="/img/products/lms1.jpg" />
         <link rel="canonical" href="https://www.brvteck.com/products/lms" />
       </Head>
       <PageTitle
-        pageTitle="Learning Management System"
+        pageTitle="AI Learning Management System"
         pagesub="products 😍"
         pageTop="Our"
       />
@@ -234,23 +234,23 @@ const LmsPage = () => {
           <div className="row align-items-center justify-content-lg-between">
             <div className="col-lg-5 order-lg-last">
               <div className="team_cartoon_image">
-                <Image src={srImg} alt="LMS Cartoon" width={500} height={500} />
+                <Image src={srImg} alt="AI LMS" width={500} height={500} />
               </div>
             </div>
             <div className="col-lg-6">
               <div className="about_content">
                 <div className="heading_block">
                   <div className="heading_focus_text">
-                    We Are LMS
+                    We Are AI-Powered LMS
                     <span className="badge bg-secondary text-white">
                       IT Experts 🙂
                     </span>
                   </div>
-                  <h2 className="heading_text">Learning Management System</h2>
+                  <h2 className="heading_text">AI Learning Management System</h2>
                   <p className="heading_description mb-0">
-                    Transform your learning and training operations with our
-                    advanced LMS, designed to automate, streamline, and optimize
-                    every aspect of education delivery.
+                    Reinvent your learning and training operations with our
+                    AI-powered LMS that automates tasks, personalizes learning,
+                    and delivers intelligent insights for better outcomes.
                   </p>
                 </div>
                 <Link onClick={ClickHandler} href="/service" className="btn">
@@ -304,13 +304,14 @@ const LmsPage = () => {
           </div>
         </div>
       </section>
+
       {/* Key Features Section */}
       <section className="service_section section_space bg-light">
         <div className="container">
           <div className="row align-items-center justify-content-lg-between">
             <div className="col-lg-6">
               <div className="image_wrap">
-                <Image src={wImg} alt="LMS" width={600} height={400} />
+                <Image src={wImg} alt="AI LMS" width={600} height={400} />
               </div>
             </div>
             <div className="col-lg-6">
@@ -321,7 +322,7 @@ const LmsPage = () => {
                     features
                   </div>
                   <h2 className="heading_text mb-0">
-                    Key Benefits of Our LMS Solutions
+                    Key Benefits of Our AI LMS Solutions
                   </h2>
                 </div>
                 <ul className="service_facilities_group unordered_list">
