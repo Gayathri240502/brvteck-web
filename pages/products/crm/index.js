@@ -21,116 +21,65 @@ import {
   ShieldCheck,
 } from "lucide-react";
 
-const srImg = "/img/products/crm1.jpg"; // main
-const wImg = "/img/products/crm2.jpg"; // key
+const srImg = "/img/products/crm1.jpg"; 
+const wImg = "/img/products/crm2.jpg"; 
 
 const PolicyIcons = [
-  {
-    title: "AI-Driven Sales Automation",
-    icon: Gauge,
-  },
-  {
-    title: "Smart Customer Data Insights",
-    icon: FileText,
-  },
-  {
-    title: "Predictive Analytics & Reporting",
-    icon: BarChart3,
-  },
-  {
-    title: "AI-Enabled Workflow Automation",
-    icon: Workflow,
-  },
-  {
-    title: "Secure AI-Based Data Handling",
-    icon: ShieldCheck,
-  },
+  { title: "AI-Driven Sales Intelligence", icon: Gauge },
+  { title: "Smart Customer Insights", icon: FileText },
+  { title: "Predictive AI Analytics", icon: BarChart3 },
+  { title: "Automated Workflows", icon: Workflow },
+  { title: "Secure AI Data Management", icon: ShieldCheck },
 ];
 
 const Policy = [
   {
     icon: (
-      <Hospital
-        size={80}
-        color="#03044e"
-        style={{
-          padding: "12px",
-        }}
-      />
+      <Hospital size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "AI-Based CRM Implementation",
+    title: "AI CRM Implementation",
     subTitle:
-      "Integrate powerful AI-driven CRM systems that automate customer engagement, improve decision-making, and enhance overall business performance.",
+      "Deploy advanced AI-powered CRM solutions that automate everyday tasks, enhance customer engagement, and optimize your business performance.",
   },
   {
     icon: (
-      <Calendar
-        size={80}
-        color="#03044e"
-        style={{
-          padding: "12px",
-        }}
-      />
+      <Calendar size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "AI-Powered CRM Migration",
+    title: "AI CRM Migration",
     subTitle:
-      "Smooth migration to intelligent CRM platforms with machine-learning capabilities that deliver speed, accuracy, and future-ready performance.",
+      "Seamlessly migrate from legacy systems to modern AI-enabled CRM platforms for improved scalability, speed, and accuracy.",
   },
   {
     icon: (
-      <FileText
-        size={80}
-        color="#03044e"
-        style={{
-          padding: "12px",
-        }}
-      />
+      <FileText size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "AI-Integrated CRM",
+    title: "AI CRM Integrations",
     subTitle:
-      "Connect your CRM with advanced AI tools to enable automation, smart recommendations, and unified data visibility across the organization.",
+      "Integrate your CRM with AI tools to unlock automation, intelligent recommendations, and data-driven customer insights.",
   },
   {
     icon: (
-      <CreditCard
-        size={80}
-        color="#03044e"
-        style={{
-          padding: "12px",
-        }}
-      />
+      <CreditCard size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
     title: "Custom AI CRM Solutions",
     subTitle:
-      "Customize CRM processes with AI-driven features to match your business needs, improve productivity, and streamline complex workflows.",
+      "Get tailor-made AI CRM modules designed for your business needs, improving productivity and optimizing workflows.",
   },
   {
     icon: (
-      <Pill
-        size={80}
-        color="#03044e"
-        style={{
-          padding: "12px",
-        }}
-      />
+      <Pill size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "AI-Powered CRM Analytics",
+    title: "AI Customer Analytics",
     subTitle:
-      "Use predictive AI analytics to understand customer behavior, forecast trends, and make data-backed business decisions with confidence.",
+      "Leverage predictive analytics to forecast customer needs, personalize experiences, and grow your business intelligently.",
   },
   {
     icon: (
-      <FlaskConical
-        size={80}
-        color="#03044e"
-        style={{
-          padding: "12px",
-        }}
-      />
+      <FlaskConical size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
     title: "AI CRM Training & Support",
     subTitle:
-      "Empower teams with hands-on AI CRM training and continuous expert support to maximize adoption, accuracy, and long-term ROI.",
+      "Empower your team with expert-led AI CRM training and continuous support for maximum adoption and ROI.",
   },
 ];
 
@@ -140,78 +89,57 @@ const CrmPage = () => {
   return (
     <Fragment>
       <Head>
-        <title>
-          AI-Based CRM Solutions | Intelligent Customer Management | Brvteck
-        </title>
+        <title>AI CRM Solutions | Intelligent CRM Automation | Brvteck</title>
         <meta
           name="description"
-          content="Brvteck AI-powered CRM solutions enhance customer experience, automate workflows, and deliver predictive insights using advanced machine learning."
+          content="Brvteck AI CRM solutions automate customer engagement, deliver predictive insights, and help businesses achieve smarter decision-making."
         />
         <meta
           name="keywords"
-          content="AI CRM, Artificial Intelligence CRM, Smart CRM Solutions, AI Automation, Predictive CRM, Brvteck AI CRM"
+          content="AI CRM, Smart CRM system, AI customer management, CRM automation, predictive CRM, Brvteck AI CRM"
         />
-        <meta name="author" content="Brvteck" />
-        <meta
-          property="og:title"
-          content="AI-Based CRM Solutions | Intelligent Customer Management | Brvteck"
-        />
+        <meta property="og:title" content="AI CRM Solutions | Brvteck" />
         <meta
           property="og:description"
-          content="Transform your business with AI-powered CRM: automation, insights, prediction, and smarter customer engagement."
+          content="Transform your CRM with AI-driven automation, insights, and intelligent customer engagement."
         />
         <meta property="og:image" content="/img/products/crm1.jpg" />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://www.brvteck.com/products/crm"
-        />
+        <meta property="og:url" content="https://www.brvteck.com/products/crm" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="AI-Based CRM Solutions | Intelligent Customer Management | Brvteck"
-        />
-        <meta
-          name="twitter:description"
-          content="Enhance customer engagement and decision-making with AI-powered CRM solutions."
-        />
-        <meta name="twitter:image" content="/img/products/crm1.jpg" />
-        <link rel="canonical" href="https://www.brvteck.com/products/crm" />
       </Head>
+
       <PageTitle
-        pageTitle="AI-Powered Customer Relationship Management"
+        pageTitle="AI-Powered CRM Solutions"
         pagesub="products 😍"
         pageTop="Our"
       />
+
       <Header />
 
+      {/* Hero Section */}
       <section className="about_section section_space bg-light">
         <div className="container">
           <div className="row align-items-center justify-content-lg-between">
             <div className="col-lg-5 order-lg-last">
               <div className="team_cartoon_image">
-                <Image
-                  src={srImg}
-                  alt="AI CRM"
-                  width={500}
-                  height={500}
-                />
+                <Image src={srImg} alt="AI CRM" width={500} height={500} />
               </div>
             </div>
             <div className="col-lg-6">
               <div className="about_content">
                 <div className="heading_block">
                   <div className="heading_focus_text">
-                    We Are AI-Based CRM
+                    We Build Next-Gen
                     <span className="badge bg-secondary text-white">
-                      IT Experts 🙂
+                      AI CRM Systems 🙂
                     </span>
                   </div>
-                  <h2 className="heading_text">
-                    AI-Driven Customer Relationship Management
-                  </h2>
+                  <h2 className="heading_text">AI-Driven CRM for Modern Businesses</h2>
                   <p className="heading_description mb-0">
-                    Upgrade your business with AI-enhanced CRM solutions that automate tasks, deliver predictive insights, and elevate customer experiences with unmatched efficiency.
+                    Boost your business with AI-powered CRM solutions designed
+                    to streamline tasks, analyze customer behavior, and offer
+                    predictive insights for smarter decision-making.
                   </p>
                 </div>
                 <Link onClick={ClickHandler} href="/service" className="btn">
@@ -256,9 +184,7 @@ const CrmPage = () => {
                   <h3 style={{ color: "#03044e", fontWeight: "700" }}>
                     {policy.title}
                   </h3>
-                  <p style={{ fontSize: "0.95rem", color: "#444" }}>
-                    {policy.subTitle}
-                  </p>
+                  <p style={{ fontSize: "0.95rem", color: "#444" }}>{policy.subTitle}</p>
                 </div>
               </div>
             ))}
@@ -266,7 +192,7 @@ const CrmPage = () => {
         </div>
       </section>
 
-      {/* Key Features Section */}
+      {/* Key Features */}
       <section className="service_section section_space bg-light">
         <div className="container">
           <div className="row align-items-center justify-content-lg-between">
@@ -279,13 +205,14 @@ const CrmPage = () => {
               <div className="ps-lg-5">
                 <div className="heading_block">
                   <div className="heading_focus_text">
-                    <span className="badge bg-secondary text-white">Key</span>
-                    features
+                    <span className="badge bg-secondary text-white">AI CRM</span>
+                    Features
                   </div>
                   <h2 className="heading_text mb-0">
-                    Key Benefits of Our AI-Powered CRM
+                    Benefits of Our AI-Powered CRM
                   </h2>
                 </div>
+
                 <ul className="service_facilities_group unordered_list">
                   {PolicyIcons.map((policy, idx) => {
                     const Icon = policy.icon;
