@@ -258,7 +258,10 @@ const navLinks = [
         href: "/products/lms",
         label: "AI-Learning Management System",
       },
-    
+     {
+        href: "/products/dcrm",
+        label: "AI-Driven Customer Relationship Management",
+      },
       {
         href: "/products/erp",
         label: "AI-Enterprise Resource Planning",
