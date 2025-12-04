@@ -21,158 +21,128 @@ import {
   ShieldCheck,
 } from "lucide-react";
 
-const srImg = "/img/products/hms.jpg"; 
-const wImg = "/img/products/hms1.jpg"; 
+const srImg = "/img/products/hms.jpg";
+const wImg = "/img/products/hms1.jpg";
 
-// AI-Focused Key Benefits
+// ⭐ AI-Driven CRM Benefits
 const PolicyIcons = [
   {
-    title: "Predictive Operational Intelligence",
+    title: "Predictive Customer Intelligence",
     icon: Gauge,
   },
   {
-    title: "Deeper Clinical Context with AI Insights",
+    title: "Deep Customer Context with AI Insights",
     icon: FileText,
   },
   {
-    title: "Prescriptive Analytics for Hospital Planning",
+    title: "Prescriptive Sales & Engagement Analytics",
     icon: BarChart3,
   },
   {
-    title: "Autonomous AI-Driven Workflows",
+    title: "Autonomous CRM Workflows",
     icon: Workflow,
   },
   {
-    title: "Automated RCM with Anomaly Detection",
+    title: "Automated Billing & Fraud Detection",
     icon: CreditCard,
   },
   {
-    title: "AI-Strengthened Data Security & Compliance",
+    title: "AI-Enhanced Security & Compliance",
     icon: ShieldCheck,
   },
 ];
 
-// AI-Enhanced Core Modules
+// ⭐ AI-CRM Modules
 const Policy = [
   {
     icon: (
-      <Hospital
-        size={80}
-        color="#03044e"
-        style={{ padding: "12px" }}
-      />
+      <Hospital size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "AI-Powered Administration & Predictive Reporting",
+    title: "AI-Powered Customer Management & Insights",
     subTitle:
-      "Enhance hospital administration with AI models that forecast patient flow, anticipate equipment servicing needs, and deliver real-time operational insights—driving proactive decision-making and optimized performance.",
+      "Understand every customer deeply with machine learning models that analyze behavior, preferences, purchase history, and engagement patterns to enable hyper-personalized communication.",
   },
   {
     icon: (
-      <Calendar
-        size={80}
-        color="#03044e"
-        style={{ padding: "12px" }}
-      />
+      <Calendar size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "Intelligent Scheduling & Resource Optimization",
+    title: "Smart Lead Scheduling & Sales Automation",
     subTitle:
-      "Leverage machine learning to automate appointment booking and streamline staff allocation. Our AI engine predicts peak hours, reduces no-shows, and ensures optimal utilization of doctors, rooms, and medical equipment.",
+      "AI optimizes sales appointments, predicts high-intent time slots, reduces drop-offs, and automatically assigns the right sales resource to the right lead for maximum conversion.",
   },
   {
     icon: (
-      <FileText
-        size={80}
-        color="#03044e"
-        style={{ padding: "12px" }}
-      />
+      <FileText size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "AI-Enhanced EMR with Clinical Understanding",
+    title: "AI-Enhanced Contact Intelligence",
     subTitle:
-      "Transform traditional EMRs with AI-driven NLP that extracts insights from clinical notes, supports diagnostic decision-making, and curates personalized treatment recommendations for improved patient outcomes.",
+      "Transform CRM data with NLP-driven analysis that detects sentiment, identifies customer intent, and highlights opportunities by scanning communication history and support interactions.",
   },
   {
     icon: (
-      <CreditCard
-        size={80}
-        color="#03044e"
-        style={{ padding: "12px" }}
-      />
+      <CreditCard size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "Automated Revenue Cycle with AI Risk Scoring",
+    title: "AI-Optimized Billing & Revenue Automation",
     subTitle:
-      "Accelerate billing, coding, and claims with intelligent automation. Detect anomalies, prevent fraud, and ensure cleaner claim submissions using AI-powered pattern recognition and validation algorithms.",
+      "Boost revenue operations with AI-driven invoicing, automatic payment reminders, anomaly detection, and predictive churn scoring to safeguard recurring revenue streams.",
   },
   {
     icon: (
-      <Pill
-        size={80}
-        color="#03044e"
-        style={{ padding: "12px" }}
-      />
+      <Pill size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "AI-Smart Pharmacy & Safe Prescriptions",
+    title: "Product Intelligence & Stock Forecasting",
     subTitle:
-      "Manage stock efficiently with AI-driven demand forecasting. Reduce dispensing errors with automated drug-interaction checks, dose optimization alerts, and real-time insights from integrated EMR data.",
+      "AI predicts product demand, identifies customer preferences, and alerts your team about fast-moving or low-performing items—driving smarter inventory and sales planning.",
   },
   {
     icon: (
-      <FlaskConical
-        size={80}
-        color="#03044e"
-        style={{ padding: "12px" }}
-      />
+      <FlaskConical size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "AI-Accelerated Diagnostics & Lab Intelligence",
+    title: "AI-Driven Campaigns & Customer Engagement",
     subTitle:
-      "Speed up diagnostic processes using AI-assisted image analysis, automated lab prioritization, and intelligent result interpretation—reducing delays, minimizing manual errors, and elevating accuracy.",
+      "Run high-converting campaigns with machine learning models that segment audiences, recommend best communication channels, and auto-optimize message timing for increased engagement.",
   },
 ];
 
-const HimsPage = () => {
+const DcrmPage = () => {
   const ClickHandler = () => window.scrollTo(0, 0);
 
   return (
     <Fragment>
       <Head>
-        <title>AI-Powered Hospital Information Management System | Smart AI-HIMS | Brvteck</title>
+        <title>AI-Driven Customer Relationship Management System | Smart AI-CRM | Brvteck</title>
         <meta
           name="description"
-          content="Brvteck AI-HIMS combines advanced machine learning, automation, and clinical intelligence to transform hospital workflows, enhance patient care, and deliver predictive healthcare operations."
+          content="Brvteck AI-CRM delivers next-generation customer intelligence, automated sales processes, predictive analytics, and hyper-personalized customer engagement powered by machine learning."
         />
         <meta
           name="keywords"
-          content="AI HIMS, Smart HIMS, AI Hospital System, Predictive Healthcare, AI EMR, ML Hospitals, Digital Health, Brvteck AI"
+          content="AI CRM, Smart CRM, Predictive CRM, Customer Intelligence, AI Automation, Sales AI, Brvteck CRM"
         />
         <meta name="author" content="Brvteck" />
         <meta
           property="og:title"
-          content="AI-Powered Hospital Information Management System | Smart AI-HIMS | Brvteck"
+          content="AI-Driven Customer Relationship Management System | Smart AI-CRM | Brvteck"
         />
         <meta
           property="og:description"
-          content="Experience the next-generation AI-driven hospital management ecosystem that delivers predictive, automated, and patient-centric healthcare operations."
+          content="Unlock intelligent customer insights, automated sales workflows, predictive engagement, and 360° customer visibility with Brvteck's AI-powered CRM ecosystem."
         />
         <meta property="og:image" content="/img/products/hms.jpg" />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://www.brvteck.com/products/ai-hims"
-        />
+        <meta property="og:url" content="https://www.brvteck.com/products/ai-crm" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="AI-Powered Hospital Information Management System | Brvteck AI-HIMS"
-        />
+        <meta name="twitter:title" content="AI-Driven Customer Relationship Management | Brvteck AI-CRM" />
         <meta
           name="twitter:description"
-          content="A future-ready AI-HIMS built for predictive operations, intelligent care, and autonomous hospital management."
+          content="A future-ready AI CRM platform that predicts customer needs, automates sales, and boosts engagement."
         />
         <meta name="twitter:image" content="/img/products/hms.jpg" />
-        <link rel="canonical" href="https://www.brvteck.com/products/ai-hims" />
+        <link rel="canonical" href="https://www.brvteck.com/products/ai-crm" />
       </Head>
 
       <PageTitle
-        pageTitle="AI-Hospital Information Management System"
+        pageTitle="AI-Driven Customer Relationship Management"
         pagesub="products 💡"
         pageTop="Our"
       />
@@ -187,7 +157,7 @@ const HimsPage = () => {
               <div className="team_cartoon_image">
                 <Image
                   src={srImg}
-                  alt="AI HIMS Illustration"
+                  alt="AI CRM Illustration"
                   width={500}
                   height={500}
                 />
@@ -198,28 +168,27 @@ const HimsPage = () => {
               <div className="about_content">
                 <div className="heading_block">
                   <div className="heading_focus_text">
-                    We Are Healthcare
+                    We Are Customer
                     <span className="badge bg-secondary text-white">
                       AI Innovators 💡
                     </span>
                   </div>
 
                   <h2 className="heading_text">
-                    Intelligent AI-Hospital Information Management System
+                    Intelligent AI-CRM for Smart Customer Engagement
                   </h2>
 
                   <p className="heading_description mb-0">
-                    Step into the future of healthcare with a HIMS powered by 
-                    predictive AI, clinical intelligence, and automated workflows. 
-                    Our platform transforms hospitals from **reactive to proactive**, 
-                    enabling smarter decision-making, optimized operations, and 
-                    safer, more personalized patient care.
+                    Transform the way your business understands, engages, and retains customers.
+                    Our AI-powered CRM enables predictive customer behavior insights, automated workflows,
+                    hyper-personalization, and data-driven sales intelligence—delivering higher conversions
+                    and stronger customer relationships.
                   </p>
                 </div>
 
                 <Link onClick={ClickHandler} href="/service" className="btn">
-                  <span className="btn_label" data-text="Talk to an AI Expert">
-                    Talk to an AI Expert
+                  <span className="btn_label" data-text="Talk to an AI CRM Expert">
+                    Talk to an AI CRM Expert
                   </span>
                   <span className="btn_icon">
                     <i className="fa-solid fa-arrow-up-right"></i>
@@ -231,7 +200,7 @@ const HimsPage = () => {
         </div>
       </section>
 
-      {/* AI Modules */}
+      {/* AI Modules Section */}
       <section style={{ backgroundColor: "#eaf4ff", padding: "60px 0" }}>
         <div className="container">
           <div
@@ -277,7 +246,7 @@ const HimsPage = () => {
               <div className="image_wrap">
                 <Image
                   src={wImg}
-                  alt="AI HIMS Interface"
+                  alt="AI CRM Interface"
                   width={600}
                   height={400}
                 />
@@ -292,7 +261,7 @@ const HimsPage = () => {
                     Benefits
                   </div>
                   <h2 className="heading_text mb-0">
-                    Key Advantages of Our AI-HIMS Ecosystem
+                    Key Advantages of Our AI-CRM Ecosystem
                   </h2>
                 </div>
 
@@ -331,11 +300,9 @@ const HimsPage = () => {
         >
           <div className="container text-center">
             <div className="heading_block text-white">
-              <h2 className="heading_text">Ready to Elevate Your Hospital with AI?</h2>
+              <h2 className="heading_text">Ready to Transform Your Customer Relationships with AI?</h2>
               <p className="heading_description mb-0">
-                Let our team help you implement an intelligent hospital system 
-                that adapts, learns, and continuously improves your workflow efficiency 
-                and clinical outcomes.
+                Let us implement a future-ready AI CRM that predicts, automates, and elevates every customer interaction.
               </p>
             </div>
 
@@ -344,8 +311,8 @@ const HimsPage = () => {
               href="https://himsapp.ai/"
               className="btn btn-primary"
             >
-              <span className="btn_label" data-text="Launch Your AI-HIMS Pilot!">
-                Launch Your AI-HIMS Pilot!
+              <span className="btn_label" data-text="Launch Your AI-CRM Pilot!">
+                Launch Your AI-CRM Pilot!
               </span>
               <span className="btn_icon">
                 <i className="fa-solid fa-arrow-up-right"></i>
@@ -361,4 +328,4 @@ const HimsPage = () => {
   );
 };
 
-export default HimsPage;
+export default DcrmPage;

@@ -15,185 +15,176 @@ import {
   UserPlus,
   TrendingUp,
   UserCircle2,
-  Gauge,
   FileText,
+  Gauge,
   BarChart3,
   Workflow,
   ShieldCheck,
 } from "lucide-react";
 
-const srImg = "/img/products/hrms1.jpg"; // main
-const wImg = "/img/products/hrms2.jpg"; // key
+const srImg = "/img/products/hrms1.jpg";
+const wImg = "/img/products/hrms2.jpg";
 
+// --------------------------------------------
+// KEY BENEFITS
+// --------------------------------------------
 const PolicyIcons = [
   {
-    title: "Employee Self-Service",
+    title: "AI-Powered Employee Self-Service",
     icon: UserCircle2,
   },
   {
-    title: "Payroll Automation",
+    title: "Automated Payroll Intelligence",
     icon: CreditCard,
   },
   {
-    title: "Attendance & Leave Tracking",
+    title: "Smart Attendance & Leave Automation",
     icon: CalendarCheck2,
   },
   {
-    title: "Performance Analytics",
+    title: "Predictive Workforce Analytics",
     icon: BarChart3,
   },
   {
-    title: "Secure Employee Data",
+    title: "Secure & Compliant HR Data",
     icon: ShieldCheck,
   },
 ];
 
+// --------------------------------------------
+// FEATURE CARDS
+// --------------------------------------------
 const Policy = [
   {
     icon: (
-      <Users
-        size={80}
-        color="#03044e"
-        style={{
-          padding: "12px",
-        }}
-      />
+      <Users size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "Employee Management",
+    title: "AI-Enhanced Employee Management",
     subTitle:
-      "Efficiently manage employee profiles, track personal information, and monitor performance within a centralized system.",
+      "Unify employee records and augment them with AI insights—skill mapping, role suitability scoring, and automated career path recommendations.",
   },
   {
     icon: (
-      <CreditCard
-        size={80}
-        color="#03044e"
-        style={{
-          padding: "12px",
-        }}
-      />
+      <CreditCard size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "Payroll Management",
+    title: "Intelligent Payroll Automation",
     subTitle:
-      "Streamline payroll processing, calculate salaries, bonuses, taxes, and generate payslips automatically for your employees.",
+      "Automate payroll with AI-driven error detection, compliance checks, tax logic, and real-time reconciliation for seamless payouts.",
   },
   {
     icon: (
-      <CalendarCheck2
-        size={80}
-        color="#03044e"
-        style={{
-          padding: "12px",
-        }}
-      />
+      <CalendarCheck2 size={80} color="#03044e" style={{ padding: '12px' }} />
     ),
-    title: "Leave & Attendance Tracking",
+    title: "AI Attendance & Shift Optimization",
     subTitle:
-      "Track employee attendance, manage leave requests, and maintain accurate records for better workforce planning.",
+      "Smart attendance tracking powered by machine learning that predicts absentee trends, optimizes shift planning, and reduces manual corrections.",
   },
   {
     icon: (
-      <UserPlus
-        size={80}
-        color="#03044e"
-        style={{
-          padding: "12px",
-        }}
-      />
+      <UserPlus size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "Recruitment & Onboarding",
+    title: "AI Recruitment & Smart Onboarding",
     subTitle:
-      "Simplify recruitment and onboarding processes, from job postings to offer letters, and ensure a smooth transition for new hires.",
+      "Accelerate hiring with AI-based resume ranking, screening automation, interview scheduling, and personalized onboarding journeys.",
   },
   {
     icon: (
-      <TrendingUp
-        size={80}
-        color="#03044e"
-        style={{
-          padding: "12px",
-        }}
-      />
+      <TrendingUp size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "Performance Management",
+    title: "AI-Driven Performance Management",
     subTitle:
-      "Monitor and evaluate employee performance with customized appraisal systems, feedback, and goal setting to boost productivity.",
+      "Use explainable AI to provide transparent appraisals, performance scores, growth suggestions, and promotion readiness indicators.",
   },
   {
     icon: (
-      <UserCircle2
-        size={80}
-        color="#03044e"
-        style={{
-          padding: "12px",
-        }}
-      />
+      <UserCircle2 size={80} color="#03044e" style={{ padding: "12px" }} />
     ),
-    title: "Employee Self-Service",
+    title: "Human-Centered AI Decisions",
     subTitle:
-      "Empower employees with a self-service portal to access payslips, leave requests, benefits, and personal information updates.",
+      "AI supports your HR decisions—never replaces them. HR teams can override AI, validate insights, and fine-tune recommendations.",
   },
 ];
 
-const HrmsPage = () => {
+const AiHrmsPage = () => {
   const ClickHandler = () => window.scrollTo(0, 0);
 
   return (
     <Fragment>
       <Head>
-        <title>HRMS Solutions | Human Resource Management System | Brvteck</title>
-        <meta name="description" content="Brvteck HRMS automates and streamlines HR operations, payroll, attendance, and employee management for modern businesses." />
-        <meta name="keywords" content="HRMS, Human Resource Management System, HR Software, Payroll, Attendance, Employee Management, Brvteck" />
+        <title>AI-HRMS | AI Human Resource Management System | Brvteck</title>
+        <meta
+          name="description"
+          content="Brvteck AI-HRMS uses machine learning to modernize HR—smart attendance, predictive analytics, automated payroll, and AI-enabled workforce planning."
+        />
+        <meta
+          name="keywords"
+          content="AI HRMS, HR Automation, AI Payroll, AI Recruitment, Employee Analytics, Predictive HR, Brvteck HRMS"
+        />
         <meta name="author" content="Brvteck" />
-        <meta property="og:title" content="HRMS Solutions | Human Resource Management System | Brvteck" />
-        <meta property="og:description" content="Automate and optimize your HR operations with Brvteck's HRMS: payroll, attendance, analytics, and more." />
+        <meta property="og:title" content="AI-HRMS | Brvteck" />
+        <meta
+          property="og:description"
+          content="Transform HR with Brvteck's AI-HRMS: intelligent recruitment, automated payroll, smart attendance, and predictive workforce insights."
+        />
         <meta property="og:image" content="/img/products/hrms1.jpg" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.brvteck.com/products/hrms" />
+        <meta
+          property="og:url"
+          content="https://www.brvteck.com/products/ai-hrms"
+        />
+
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="HRMS Solutions | Human Resource Management System | Brvteck" />
-        <meta name="twitter:description" content="Transform your HR operations with Brvteck HRMS for automation, analytics, and compliance." />
+        <meta name="twitter:title" content="AI-HRMS | Brvteck" />
+        <meta
+          name="twitter:description"
+          content="Brvteck’s AI-HRMS automates payroll, enhances recruitment, predicts performance trends, and ensures secure people management."
+        />
         <meta name="twitter:image" content="/img/products/hrms1.jpg" />
-        <link rel="canonical" href="https://www.brvteck.com/products/hrms" />
+        <link rel="canonical" href="https://www.brvteck.com/products/ai-hrms" />
       </Head>
+
       <PageTitle
+<<<<<<< HEAD
         pageTitle="AI-Based Human Resource Management System"
         pagesub="products 😍"
+=======
+        pageTitle="AI Human Resource Management System"
+        pagesub="products"
+>>>>>>> 35c9d7984d4dd2104b6c4dec2280e082b060ecbb
         pageTop="Our"
       />
       <Header />
 
+      {/* HERO SECTION */}
       <section className="about_section section_space bg-light">
         <div className="container">
           <div className="row align-items-center justify-content-lg-between">
+
+            {/* Image */}
             <div className="col-lg-5 order-lg-last">
               <div className="team_cartoon_image">
-                <Image
-                  src={srImg}
-                  alt="HRMS Cartoon"
-                  width={500}
-                  height={500}
-                />
+                <Image src={srImg} alt="AI HRMS" width={500} height={500} />
               </div>
             </div>
+
+            {/* Text */}
             <div className="col-lg-6">
               <div className="about_content">
                 <div className="heading_block">
                   <div className="heading_focus_text">
-                    We Are HRMS
-                    <span className="badge bg-secondary text-white">
-                      IT Experts 🙂
-                    </span>
+                    AI for Modern HR
+                    <span className="badge bg-secondary text-white">Experts</span>
                   </div>
                   <h2 className="heading_text">
-                    Human Resource Management System
+                    Next-Generation AI Human Resource Management
                   </h2>
                   <p className="heading_description mb-0">
-                    Transform your HR operations with our advanced HRMS,
-                    designed to automate, streamline, and optimize every aspect
-                    of workforce management.
+                    Transform HR operations with AI automation, predictive insights,
+                    and personalized employee experiences—reducing manual work and
+                    enabling strategic data-driven decisions.
                   </p>
                 </div>
+
                 <Link onClick={ClickHandler} href="/service" className="btn">
                   <span className="btn_label" data-text="Talk to an Expert">
                     Talk to an Expert
@@ -208,7 +199,7 @@ const HrmsPage = () => {
         </div>
       </section>
 
-      {/* Feature Cards */}
+      {/* FEATURE CARDS */}
       <section style={{ backgroundColor: "#eaf4ff", padding: "60px 0" }}>
         <div className="container">
           <div
@@ -245,26 +236,33 @@ const HrmsPage = () => {
           </div>
         </div>
       </section>
-      {/* Key Features Section */}
+
+      {/* KEY FEATURES */}
       <section className="service_section section_space bg-light">
         <div className="container">
           <div className="row align-items-center justify-content-lg-between">
+
+            {/* Image */}
             <div className="col-lg-6">
               <div className="image_wrap">
-                <Image src={wImg} alt="HRMS" width={600} height={400} />
+                <Image src={wImg} alt="AI HRMS Features" width={600} height={400} />
               </div>
             </div>
+
+            {/* List */}
             <div className="col-lg-6">
               <div className="ps-lg-5">
+
                 <div className="heading_block">
                   <div className="heading_focus_text">
                     <span className="badge bg-secondary text-white">Key</span>
                     features
                   </div>
                   <h2 className="heading_text mb-0">
-                    Key Benefits of Our HRMS Solutions
+                    Core Benefits of Our AI-HRMS
                   </h2>
                 </div>
+
                 <ul className="service_facilities_group unordered_list">
                   {PolicyIcons.map((policy, idx) => {
                     const Icon = policy.icon;
@@ -284,6 +282,7 @@ const HrmsPage = () => {
                     );
                   })}
                 </ul>
+
               </div>
             </div>
           </div>
@@ -300,5 +299,4 @@ const HrmsPage = () => {
   );
 };
 
-export default HrmsPage;
-
+export default AiHrmsPage;

@@ -215,21 +215,33 @@ export const navLinks = [
     label: "Products",
     children: [
       {
-        href: "/products/ AI-HIMS",
+        href: "/products/hims",
         label: "AI Hospital Information Management system(AI-HIMS)",
       },
       {
-        href: "/products/AI-LMS",
+        href: "/products/lms",
         label: "AI Based Learning Management System (AI-LMS)",
       },
+<<<<<<< HEAD
      { href: "/products/AI-CRM", label: "AI-Driven Customer Relationship Management(AI-CRM)" },
       { href: "/products/AI-BIM", label: "AI-Enterprise Resource Planning(AI-ERP)" },
     {
     
         href: "/products/AI-HRMS",
         label: "AI Human Resource Management System (AI-HRMS)",
+=======
+     {
+        href: "/products/dcrm",
+        label: "AI-Driven Customer Relationship Management",
+>>>>>>> 35c9d7984d4dd2104b6c4dec2280e082b060ecbb
       },
      
+      { href: "/products/erp", label: "AI-based Enterprise Resource Planning" },
+      {
+        href: "/products/hrms",
+        label: "AI Human Resource Management System (AI-HRMS)",
+      },
+
       // {
       //   href: "/products/crypto",
       //   label: "Crypto Currency",
