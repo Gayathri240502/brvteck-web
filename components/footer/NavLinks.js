@@ -218,13 +218,10 @@ export const navLinks = [
         href: "/products/hims",
         label: "AI Hospital Information Management system(AI-HIMS)",
       },
-      {
-        href: "/products/lms",
-        label: "AI Based Learning Management System (AI-LMS)",
-      },
+      
 
      { href: "/products/AI-CRM", label: "AI-Driven Customer Relationship Management(AI-CRM)" },
-      { href: "/products/AI-BIM", label: "AI-Enterprise Resource Planning(AI-ERP)" },
+      // { href: "/products/AI-BIM", label: "AI-Enterprise Resource Planning(AI-ERP)" },
 
     {href: "/products/AI-HRMS",
         label: "AI Human Resource Management System (AI-HRMS)",

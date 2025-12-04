@@ -144,13 +144,8 @@ const AiHrmsPage = () => {
       </Head>
 
       <PageTitle
-<<<<<<< HEAD
-        pageTitle="AI-Based Human Resource Management System"
-        pagesub="products 😍"
-=======
         pageTitle="AI Human Resource Management System"
         pagesub="products"
->>>>>>> 35c9d7984d4dd2104b6c4dec2280e082b060ecbb
         pageTop="Our"
       />
       <Header />
