@@ -267,10 +267,9 @@ const navLinks = [
         label: "AI-Enterprise Resource Planning",
       },
  
-      { href: "/products/crm",
-         label: "AI-Driven Customer Relationship Management(AI-CRM)" },
+     
          
-      { href: "/products/erp", label: "Enterprise Resource Planning Solutions (ERP)" },
+      
 
  
       {
