@@ -223,8 +223,7 @@ export const navLinks = [
         label: "AI Based Learning Management System (AI-LMS)",
       },
 
-     { href: "/products/AI-CRM", label: "AI-Driven Customer Relationship Management(AI-CRM)" },
-      { href: "/products/AI-BIM", label: "AI-Enterprise Resource Planning(AI-ERP)" },
+     
 
     {href: "/products/AI-HRMS",
         label: "AI Human Resource Management System (AI-HRMS)",
@@ -238,11 +237,7 @@ export const navLinks = [
       },
      
       { href: "/products/erp", label: "AI-based Enterprise Resource Planning" },
-      {
-        href: "/products/hrms",
-        label: "AI Human Resource Management System (AI-HRMS)",
-      },
-
+      
       // {
       //   href: "/products/crypto",
       //   label: "Crypto Currency",
