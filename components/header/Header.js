@@ -251,17 +251,19 @@ const navLinks = [
     label: "Products",
     children: [
       {
-        href: "/products/AI-HIMS",
+        href: "/products/hims",
         label: "AI-Hospital Information Management System (AI-HIMS)",
       },
       {
-        href: "/products/AI-LMS",
+        href: "/products/lms",
         label: "AI-Learning Management System(AI-LMS)",
       },
-      { href: "/products/AI-CRM", label: "AI-Driven Customer Relationship Management(AI-CRM)" },
-      { href: "/products/AI-ERP", label: "AI-Enterprise Resource Planning (AI-ERP)" },
+      { href: "/products/crm",
+         label: "AI-Driven Customer Relationship Management(AI-CRM)" },
+         
+      { href: "/products/erp", label: "Enterprise Resource Planning Solutions (ERP)" },
       {
-        href: "/products/AI-HRMS",
+        href: "/products/hrms",
         label: "AI Human Resource Management System (AI-HRMS)",
       },
       // {

@@ -88,7 +88,9 @@ const About = () => {
                   </div>
                 </div>
                 <a className="btn btn-primary" href="/about">
-                    <span className="btn_label" data-text="Learn more about us">Learn more </span>
+                  <span className="btn_label" data-text="Learn more about us">
+                    Learn more{" "}
+                  </span>
 
                   <span className="btn_icon">
                     <i className="fa-solid fa-arrow-up-right"></i>
@@ -226,8 +228,8 @@ const About = () => {
               href="/products"
               className="btn btn-primary"
             >
-              <span className="btn_label" data-text="View More Cases Study">
-                View More Cases Study
+              <span className="btn_label" data-text="View More">
+                View More
               </span>
               <span className="btn_icon">
                 <i className="fa-solid fa-arrow-up-right"></i>
@@ -242,17 +244,16 @@ const About = () => {
 
       {/* Responsive Mobile Adjustment */}
       <style jsx>{`
-  @media (max-width: 768px) {
-    .about_funfact_info {
-      transform: translateX(-10px);
-      width: calc(100% - 20px);
-      margin-left: auto;
-      margin-right: auto;
-      padding: 20px 15px !important;
-    }
-  }
-`}</style>
-
+        @media (max-width: 768px) {
+          .about_funfact_info {
+            transform: translateX(-10px);
+            width: calc(100% - 20px);
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px 15px !important;
+          }
+        }
+      `}</style>
     </section>
   );
 };

@@ -56,6 +56,25 @@ const Footer = () => {
     { label: "StartUps", href: "/startups" },
     { label: "Invester Connect", href: "/invester-connect" },
   ];
+  const quickLinks1 = [
+    { label: "Artificial Intelligence", href: "/artificial_intelligence" },
+    {
+      label: "NLP & Conversational AI",
+      href: "/artificial_intelligence/nlp-conversational-ai",
+    },
+    {
+      label: "Computer Vision & Image/Video AI",
+      href: "/artificial_intelligence/computer-vision-image-video-ai",
+    },
+    {
+      label: "Speech & Audio Processing",
+      href: "/artificial_intelligence/speech-audio-processing",
+    },
+    {
+      label: "Data & Predictive Analytics",
+      href: "/artificial_intelligence/data-predictive-analytics",
+    },
+  ];
 
   return (
     <footer className="site_footer footer_layout_1">
@@ -255,6 +274,21 @@ const Footer = () => {
                       <li key={i}>
                         <Link href={item.href}>
                           <span>{item.label}</span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              <div className="col-lg-3 col-md-6">
+                <div className="footer_widget">
+                  <h3 className="footer_info_title">Artificial Intelligence</h3>
+                  <ul className="icon_list unordered_list_block">
+                    {quickLinks1.map((link, i) => (
+                      <li key={i}>
+                        <Link href={link.href}>
+                          <span>{link.label}</span>
                         </Link>
                       </li>
                     ))}

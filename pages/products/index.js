@@ -147,7 +147,7 @@ const ProductsPage = () => {
                         style={{ fontSize: "1.5rem", fontWeight: 700 }}
                       >
                         <Link href={product.route}>{product.title}</Link>
-   S                   </h3>
+                     </h3>
                     </div>
                   </div>
                 </div>

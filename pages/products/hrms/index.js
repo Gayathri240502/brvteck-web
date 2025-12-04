@@ -157,7 +157,7 @@ const HrmsPage = () => {
         <link rel="canonical" href="https://www.brvteck.com/products/hrms" />
       </Head>
       <PageTitle
-        pageTitle="Human Resource Management System"
+        pageTitle="AI-Based Human Resource Management System"
         pagesub="products 😍"
         pageTop="Our"
       />
