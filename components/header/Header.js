@@ -40,6 +40,23 @@ const navLinks = [
         href: "/artificial_intelligence/data-predictive-analytics",
         label: "Data & Predictive Analytics",
       },
+      {
+        href: "/artificial_intelligence/agentic-ai",
+        label:"Agentic AI",
+      },
+      {
+        href: "/artificial_intelligence/generative-ai",
+        label: "Generative AI",
+      },
+     {
+      href:"/artificial_intelligence/ai-agent",
+      label: "AI Agent",
+      },
+      {
+        href:"/artificial_intelligence/llm",
+        label: "LLM",
+      },
+
     ],
   },
   {

@@ -31,6 +31,27 @@ const Services = [
     path: "/artificial_intelligence/data-predictive-analytics",
     sImg: "/img/services/artificial-intelligence/data-analytics.jpg",
   },
+  {
+      title:"Agentic AI",
+      path: "/artificial_intelligence/Agentic-AI",
+      sImge:"/img/services/artificial-intelligence/data-analytics.jpg",
+  },
+  {
+    title:"Generative AI",
+      path: "/artificial_intelligence/Generative-AI",
+      sImge:"/img/services/artificial-intelligence/data-analytics.jpg",
+  },
+  {
+  title:"AI agent",
+      path: "/artificial_intelligence/AI-agent",
+      sImge:"/img/services/artificial-intelligence/data-analytics.jpg",
+  },
+  {
+    title:"LLM",
+      path: "/artificial_intelligence/LLM",
+      sImge:"/img/services/artificial-intelligence/data-analytics.jpg",
+  }
+
 ];
  
 const Service = {
@@ -154,6 +175,25 @@ const SoftwareEnterprisePage = () => {
                 learning to forecast trends, automate decisions, and personalize
                 customer experiences through deep data insights.
               </li>
+              <li>
+                <strong>AgenticAI</strong>  Deploy autonomous AI agents that plan, reason, 
+  and execute multi-step workflows, make intelligent decisions, and optimize 
+  business operations with minimal human intervention.</li>
+              <li>
+                <strong>Generative AI</strong> Leverage AI to generate human-like content including 
+  text, images, videos, and audio, automating creative workflows and enhancing 
+  productivity.
+              </li>
+              <li>
+                <strong>AI Agents</strong> Build intelligent assistants and co-pilots that support 
+  teams with task automation, data analysis, and proactive decision-making in real time.
+
+              </li>
+              <li>
+                <strong>LLMs</strong> Utilize large language models for natural language understanding, 
+  semantic search, content generation, and customized enterprise applications.
+              </li>
+  
             </ul>
           </div>
         </section>

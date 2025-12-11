@@ -74,6 +74,23 @@ const Footer = () => {
       label: "Data & Predictive Analytics",
       href: "/artificial_intelligence/data-predictive-analytics",
     },
+    {
+      label: "Agentic AI",
+      href: "/artificial_intelligence/Agentic-AI",
+    },
+    {
+      label: "Generative AI",
+      href: "/artificial_intelligence/Generative-AI",
+    },
+    {
+      label: "AI agent",
+      href: "/artificial_intelligence/AI agent",
+    },
+    {
+      label: "LLM",
+      href: "/artificial_intelligence/LLM",
+    }
+    
   ];
 
   return (
@@ -219,21 +236,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              {/* Workforce Management */}
-              <div className="col-lg-3 col-md-6">
-                <div className="footer_widget">
-                  <h3 className="footer_info_title">Workforce Management</h3>
-                  <ul className="icon_list unordered_list_block">
-                    {workforce.map((item, i) => (
-                      <li key={i}>
-                        <Link href={item.href}>
-                          <span>{item.label}</span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+              
 
               {/* AI & ML */}
               <div className="col-lg-3 col-md-6">
