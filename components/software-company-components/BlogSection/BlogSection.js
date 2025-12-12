@@ -53,11 +53,9 @@ const SuccessStorySection = (props) => {
               backgroundImage: `url(${"/images/shapes/shape_title_under_line.svg"})`,
             }}
           >
-            Success Stories
+            
           </div>
-          <h2 className="heading_text mb-0">
-            Our Latest <mark>Success Stories</mark>
-          </h2>
+          
         </div>
 
         <div className="row justify-content-center">
