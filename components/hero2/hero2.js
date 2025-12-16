@@ -49,9 +49,9 @@ const Hero2 = () => {
                   <Link className="btn" href="/contact">
                     <span
                       className="btn_label"
-                      data-text="Get Started with BRVTECK"
+                      data-text="Get a Free Consultation"
                     >
-                  Get Started with BRVTECK
+                      Get a Free Consultation
                     </span>
                     <span className="btn_icon">
                       <i className="fa-solid fa-arrow-up-right"></i>

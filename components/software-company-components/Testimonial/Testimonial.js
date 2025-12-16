@@ -16,35 +16,34 @@ import Image from 'next/image';
 
 
 const testimonial = [
-  {
-    id: '01',
-    tImg: tImg1,
-    Title: 'Reliable Software & IT Services',
-    Des: "BRVTeck supported our digital transformation by delivering stable and scalable software solutions. Their team clearly understood our requirements and helped us meet tight deadlines without compromising quality.",
-    Name: 'Rohit Verma',
-    sub: 'Technology Head, Enterprise Solutions',
-    country: 'Bangalore, India',
-  },
-  {
-    id: '02',
-    tImg: tImg2,
-    Title: 'Professional and Skilled Team',
-    Des: "Working with BRVTeck has been a great experience. Their developers provided clear communication, strong technical guidance, and timely delivery, which helped our startup launch faster.",
-    Name: 'Anjali Mehta',
-    sub: 'Founder, SaaS Startup',
-    country: 'Hyderabad, India',
-  },
-  {
-    id: '03',
-    tImg: tImg3,
-    Title: 'Trusted Technology Partner',
-    Des: "BRVTeck proved to be a dependable technology partner for our organization. Their expertise in application development and cloud solutions significantly improved our operational efficiency.",
-    Name: 'Sandeep Iyer',
-    sub: 'Operations Manager, IT Services Firm',
-    country: 'Pune, India',
-  },
-];
-
+    {
+        id: '01',
+        tImg: tImg1,
+        Title: 'Amazing software services',
+        Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
+        Name: 'Maverick Phoenix',
+        sub: 'Board Member, UNIQA',
+        country: 'Seattle, Ukraine',
+    },
+    {
+        id: '02',
+        tImg: tImg2,
+        Title: 'Amazing software services',
+        Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
+        Name: 'Maverick Phoenix',
+        sub: 'Board Member, UNIQA',
+        country: 'Seattle, Ukraine',
+    },
+    {
+        id: '03',
+        tImg: tImg3,
+        Title: 'Amazing software services',
+        Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
+        Name: 'Maverick Phoenix',
+        sub: 'Board Member, UNIQA',
+        country: 'Seattle, Ukraine',
+    },
+]
 
 const Testimonial = () => {
     const prevRef = useRef(null);

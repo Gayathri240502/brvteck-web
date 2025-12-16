@@ -1,99 +1,161 @@
-import React from "react";
-import tImg1 from "/public/images/avatar/avatar_4.webp";
-import tImg2 from "/public/images/avatar/avatar_6.webp";
-import tImg3 from "/public/images/avatar/avatar_5.webp";
-import tImg4 from "/public/images/avatar/avatar_7.webp";
-import Bg from "/public/images/shapes/bg_pattern_2.svg";
-import dynamic from "next/dynamic";
-import Image from "next/image";
+import { useRef, useEffect } from 'react';
+import { Navigation } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import Image from 'next/image';
 
-const ResponsiveMasonry = dynamic(
-  () => import("react-responsive-masonry").then((mod) => mod.default),
-  { ssr: false }
-);
+import icon1 from '/public/images/icons/icon_c.svg';
+import icon2 from '/public/images/icons/icon_g2.svg';
+import tImg1 from '/public/images/avatar/avatar_5.webp';
+import tImg2 from '/public/images/avatar/avatar_6.webp';
+import tImg3 from '/public/images/avatar/avatar_7.webp';
+import clogo from '/public/images/clients/client_logo_8.webp';
+import flag from '/public/images/flag/ukraine_flag.webp';
 
-const Masonry = dynamic(
-  () => import("react-responsive-masonry").then((mod) => mod.default),
-  { ssr: false }
-);
-
-const testimonial = [
+// Updated testimonials array
+const testimonials = [
   {
-    id: "01",
+    id: '01',
     tImg: tImg1,
-    Title: "Reliable Technology Partner",
-    Des: "BRVTeck helped us modernize our enterprise systems with a clear roadmap and timely execution. Their understanding of business challenges and technical expertise made a measurable impact on our operations.",
-    Name: "Rakesh Sharma",
-    sub: "IT Head, Manufacturing Company (India)",
+    Title: 'Amazing software services',
+    Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
+    Name: 'Maverick Phoenix',
+    sub: 'Board Member, UNIQA',
+    country: 'Seattle, Ukraine',
   },
   {
-    id: "02",
+    id: '02',
     tImg: tImg2,
-    Title: "Excellent Support & Delivery",
-    Des: "As a growing startup, we needed scalable and cost-effective solutions. BRVTeck delivered exactly that. Their team was responsive, professional, and focused on results from day one.",
-    Name: "Ananya Rao",
-    sub: "Founder, Tech Startup (Bangalore)",
+    Title: 'Professional and Skilled Team',
+    Des: "The team delivered exactly what we needed. Their professionalism and timely delivery helped us achieve our goals faster.",
+    Name: 'Anjali Mehta',
+    sub: 'Founder, SaaS Startup',
+    country: 'Hyderabad, India',
   },
   {
-    id: "03",
+    id: '03',
     tImg: tImg3,
-    Title: "Strong Domain Expertise",
-    Des: "The BRVTeck team demonstrated strong expertise in cloud and enterprise application integration. Their approach helped us improve performance and reduce operational overhead.",
-    Name: "Vikram Mehta",
-    sub: "Operations Manager, Enterprise Services",
-  },
-  {
-    id: "04",
-    tImg: tImg4,
-    Title: "Highly Recommended",
-    Des: "We partnered with BRVTeck for custom software development, and the experience was smooth and transparent. They delivered on time and aligned well with our business goals.",
-    Name: "Priya Nair",
-    sub: "Product Manager, IT Solutions Firm",
+    Title: 'Trusted Technology Partner',
+    Des: "BRVTeck proved to be a dependable technology partner. Their expertise significantly improved our operational efficiency.",
+    Name: 'Sandeep Iyer',
+    sub: 'Operations Manager, IT Services Firm',
+    country: 'Pune, India',
   },
 ];
 
 const Testimonial = () => {
-  return (
-    <section
-      className="review_section section_space bg-light"
-      style={{ backgroundImage: `url(${Bg})` }}
-    >
-      <div className="container">
-        <div className="heading_block text-center">
-          <div className="heading_focus_text">
-            <span className="badge bg-secondary text-white">Client</span>
-            Testimonial 🙂
-          </div>
-          <h2 className="heading_text mb-0">What our Indian clients say</h2>
-        </div>
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
+  const swiperRef = useRef(null);
 
-        <div className="row">
-          <ResponsiveMasonry
-            columnsCountBreakPoints={{ 350: 1, 750: 1, 991: 2 }}
-          >
-            <Masonry columnsCount={4} gutter="30px">
-              {testimonial.map((item, index) => (
-                <div className="review_block pb-0" key={index}>
-                  <h3 className="review_title">“{item.Title}”</h3>
-                  <p className="review_commtent">{item.Des}</p>
-                  <div className="review_admin">
-                    <div className="review_admin_image">
-                      <Image src={item.tImg} alt={item.Name} />
-                    </div>
-                    <div className="review_admin_info">
-                      <h4 className="review_admin_name">{item.Name}</h4>
-                      <span className="review_admin_designation">
-                        {item.sub}
-                      </span>
-                    </div>
-                  </div>
+  useEffect(() => {
+    if (swiperRef.current && prevRef.current && nextRef.current) {
+      swiperRef.current.params.navigation.prevEl = prevRef.current;
+      swiperRef.current.params.navigation.nextEl = nextRef.current;
+      swiperRef.current.navigation.init();
+      swiperRef.current.navigation.update();
+    }
+  }, []);
+
+  return (
+    <div className="row">
+      {/* Left Side Info */}
+      <div className="col-lg-4">
+        <div className="deals_winner_customers">
+          <h3 className="title_text">
+            <mark>3,900+</mark> customers win deals with Techco
+          </h3>
+          <div className="row">
+            <div className="col-6">
+              <div className="review_short_info">
+                <div className="icon">
+                  <Image src={icon1} alt="C SVG Icon" />
                 </div>
-              ))}
-            </Masonry>
-          </ResponsiveMasonry>
+                <ul className="rating_block unordered_list">
+                  {[...Array(5)].map((_, i) => (
+                    <li key={i}><i className="fa-solid fa-star fa-fw"></i></li>
+                  ))}
+                </ul>
+                <div className="review_counter">From <b>200+</b> reviews</div>
+              </div>
+            </div>
+            <div className="col-6">
+              <div className="review_short_info">
+                <div className="icon">
+                  <Image src={icon2} alt="G SVG Icon" />
+                </div>
+                <ul className="rating_block unordered_list">
+                  {[...Array(5)].map((_, i) => (
+                    <li key={i}><i className="fa-solid fa-star fa-fw"></i></li>
+                  ))}
+                </ul>
+                <div className="review_counter">From <b>300+</b> reviews</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+
+      {/* Right Side Carousel */}
+      <div className="col-lg-8">
+        <div className="review_onecol_wrapper">
+          <div className="review_onecol_carousel">
+            <Swiper
+              modules={[Navigation]}
+              spaceBetween={50}
+              slidesPerView={1}
+              loop={true}
+              speed={1800}
+              parallax={true}
+              ref={swiperRef}
+              onBeforeInit={(swiper) => {
+                swiperRef.current = swiper;
+              }}
+            >
+              {testimonials.map((item, index) => (
+                <SwiperSlide key={item.id}>
+                  <div className="review_block_2">
+                    <h3 className="review_title">“{item.Title}”</h3>
+                    <p className="review_commtent">{item.Des}</p>
+                    <div className="d-md-flex justify-content-md-between">
+                      <div className="review_admin">
+                        <div className="review_admin_image">
+                          <Image src={item.tImg} alt={item.Name} />
+                        </div>
+                        <div className="review_admin_info">
+                          <h4 className="review_admin_name">{item.Name}</h4>
+                          <span className="review_admin_designation">{item.sub}</span>
+                          <div className="review_admin_country">
+                            <span className="country_flag">
+                              <Image src={flag} alt="Country Flag" />
+                            </span>
+                            <span className="country_text">{item.country}</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="review_admin_logo">
+                        <Image src={clogo} alt="Client Logo" />
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+
+            {/* Navigation Buttons */}
+            <div className="carousel_arrows_nav">
+              <button ref={prevRef} type="button" className="r1cc-swiper-button-prev">
+                <i className="fa-solid fa-arrow-left"></i>
+              </button>
+              <button ref={nextRef} type="button" className="r1cc-swiper-button-next">
+                <i className="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 

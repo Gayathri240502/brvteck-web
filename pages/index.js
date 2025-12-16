@@ -11,7 +11,7 @@ import ContactSection from "@/components/software-company-components/ContactSect
 import Scrollbar from "@/components/scrollbar/scrollbar";
 import Footer from "@/components/footer/Footer";
 import Industries from "@/api/industries";
-import Testimonial from "@/components/software-company-components/Testimonial/Testimonial";
+import Testimonial from "@/components/Testimonial/Testimonial";
 
 const HomePage2 = () => {
   return (
