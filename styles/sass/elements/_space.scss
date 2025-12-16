@@ -1,0 +1,84 @@
+/* 2.03 - Template Gapping or Spacing - Start
+================================================== */
+
+/* Default section spacing (Desktop) */
+.section_space {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+/* Medium devices (Tablets) */
+@media (max-width: 991px) {
+	.section_space {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+}
+
+/* Small devices (Mobile) */
+@media (max-width: 575px) {
+	.section_space {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+}
+
+/* Reduce spacing for sections that stack closely */
+.section_space-sm {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+@media (max-width: 575px) {
+	.section_space-sm {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+
+/* Extra spacing for important sections (Hero follow-ups, Testimonials) */
+.section_space-lg {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+@media (max-width: 991px) {
+	.section_space-lg {
+		padding-top: 110px;
+		padding-bottom: 110px;
+	}
+}
+
+@media (max-width: 575px) {
+	.section_space-lg {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+}
+
+/* Button group spacing adjustment */
+.btns_group {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+@media (max-width: 575px) {
+	.btns_group {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+/* Improve vertical rhythm between stacked sections */
+.section_space + .section_space {
+	padding-top: 80px;
+}
+
+@media (max-width: 575px) {
+	.section_space + .section_space {
+		padding-top: 60px;
+	}
+}
+
+/* 2.03 - Template Gapping or Spacing - End
+================================================== */
